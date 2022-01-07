@@ -77,8 +77,8 @@ function initialize(countriesData) {
   for (let i = 0; i < countries.length; i++) {
 
 
-    // countries.forEach(country => options += `<option value="${countries[i].altSpellings[0]}">${countries[i].name.common}</option>`);
-    options += `<option value="${countries[i].altSpellings[0]}">${countries[i].name.common}</option>`
+    countries.forEach(country => options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`);
+    // options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`
 
     // console.log(options)
   }
@@ -89,7 +89,7 @@ function initialize(countriesData) {
 }
 
 function displayCountryData(countryByCode) {
-  const countryData = countries.find(country => country.altSpellings[0] === countryByCode);
+  const countryData = countries.find(country => country.alpha3Code[0] === countryByCode);
   countryName.innerHTML = countryData.name;
   countryNativeName.innerHTML = countryData.nativeName;
   countryPopulation.innerHTML = countryData.population.toLocaleString("en-US")
@@ -98,8 +98,5 @@ function displayCountryData(countryByCode) {
   countryCapital.innerHTML = countryData.capital;
   countryDomain.innerHTML = countryData.topLevelDomain[0]
   countryLanguages.innerHTML = countryData.languages[0].name
-
-
-
   countryCurrencies.innerHTML = countryData.currencies[0].name;
 }
