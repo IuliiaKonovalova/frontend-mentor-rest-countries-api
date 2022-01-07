@@ -36,3 +36,16 @@ p {
   margin: 0;
   padding: 0;
 }
+
+/*--Styling Body, Background--*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff);
+  background: var(--clr-primary--500);
+  color: var(--clr-neutral--100);
+}
