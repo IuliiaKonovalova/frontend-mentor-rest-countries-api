@@ -1,3 +1,21 @@
+:root {
+  /*Dark Blue (Dark Mode Elements):*/
+  --clr-primary--300: hsl(209, 23%, 22%);
+  /*Very Dark Blue (Dark Mode Background)*/
+  --clr-primary--500: hsl(207, 26%, 17%);
+  /*Very Dark Blue (Light Mode Text)*/
+  --clr-primary--700: hsl(200, 15%, 8%);
+  /*White (Dark Mode Text & Light Mode Elements): */
+  --clr-neutral--100: hsl(0, 0%, 100%);
+  /*Very Light Gray (Light Mode Background):*/
+  --clr-neutral--300: hsl(0, 0%, 98%);
+  /*Dark Gray (Light Mode Input):*/
+  --clr-neutral--500: hsl(0, 0%, 52%);
+  --fs-homepage: 14px;
+  --fs-detail: 16px;
+  --br: 1.7em;
+}
+
 /*------ Global Settings------*/
 
 *,
