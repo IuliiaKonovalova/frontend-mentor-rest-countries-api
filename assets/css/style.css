@@ -218,11 +218,14 @@ select:focus {
   margin: 0 3rem;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-
-  gap: 6rem
+  gap: 6rem;
 }
 
-.flag__container--single {}
+.flag__container--single {
+
+  grid-column: 1/2;
+
+}
 
 .flag__image--single {
   width: 100%;
@@ -230,3 +233,16 @@ select:focus {
   transform: rotate(0deg);
   object-fit: cover;
 }
+
+.country__name--single {
+
+  background-color: yellowgreen;
+}
+
+.column__first {}
+
+.column__second {}
+
+.border__countries--single {}
+
+.hide {}

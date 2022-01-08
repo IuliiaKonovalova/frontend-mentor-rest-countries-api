@@ -12,14 +12,16 @@ const countryDomain = document.getElementById("top_domain");
 const countryCurrencies = document.getElementById("currencies");
 const countryLanguages = document.getElementById("languages");
 
+// mode control
 
+const modeControl = document.getElementById("mode-control");
 
 
 /**
  * Load Cards' content onLoad
  */
 document.addEventListener('DOMContentLoaded', function () {
-
+  modeControl.addEventListener("click", changeMode)
 
 });
 
@@ -66,4 +68,11 @@ function displayCountryData(countryByCode) {
   countryLanguages.innerHTML = countryData.languages[0].name
   countryCurrencies.innerHTML = countryData.currencies[0].name;
 
+}
+
+/**
+ * Control of the Mode
+ */
+const changeMode = function () {
+  console.log("hi!")
 }
