@@ -212,19 +212,13 @@ input:focus {
 }
 
 .container__info {
-  padding: 1.2rem;
+  padding: 1.5rem;
+  align-self: center;
 }
 
-.full__name {
-  font-size: 01rem;
+.country__name {
+  font-size: 1.2rem;
   padding-bottom: 0.7rem;
-}
-
-.country__info {
-  color: var(--clr-neutral--100);
-  font-weight: 600;
-  text-transform: capitalize;
-  font-size: 0.9rem;
 }
 
 .data__result {

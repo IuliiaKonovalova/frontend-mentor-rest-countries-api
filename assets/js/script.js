@@ -46,26 +46,26 @@ const displayCountries = function (countriesData) {
   countriesList.innerHTML = '';
   countriesData.forEach(country => {
     const countryCard = document.createElement('div');
-    countryCard.classList.add('card');
+    countryCard.classList.add('data__card');
 
     countryCard.innerHTML = `
-            <div>
-                <img src="${country.flag}" alt="Germany" />
+            <div class="flag__container">
+              <img src="" alt="${country.name}"  class="flag__image"/>
             </div>
-            <div class="card-body">
-                <h3 class="country-name">${country.name}</h3>
-                <p>
-                    <strong>Population:</strong>
-                    ${country.population}
-                </p>
-                <p class="country-region">
-                    <strong>Region:</strong>
-                    ${country.region}
-                </p>
-                <p>
-                    <strong>Capital:</strong>
-                    ${country.capital}
-                </p>
+            <div class="container__info">
+              <h3 class="country__name">${country.name}</h3>
+              <p>
+                <strong>Population: </strong>
+                ${country.population}
+              </p>
+              <p class="country-region">
+                <strong>Region: </strong>
+                ${country.region}
+              </p>
+              <p>
+                <strong>Capital:</strong>
+                ${country.capital}
+              </p>
             </div>
         `;
 
