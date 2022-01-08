@@ -30,20 +30,18 @@
         <input type="search__input" placeholder="Search for a country..." tabindex="0" />
       </div>
 
-      <select name="select_by_continent" class="select__continent">
-
-        <label>Filter by Region</label>
-        <optgroup class="select__options">
-          <option value="all" class="all">Filter by Region</option>
-          <option value="all" class="">All</option>
-          <option value="africa">Africa</option>
-          <option value="americas">America</option>
-          <option value="oceania">Oceania</option>
-          <option value="asia">Asia</option>
-          <option value="europe">Europe</option>
-
-        </optgroup>
-      </select>
+      <div class="dropdown" id="filter">
+        Filter by Region
+        <i class="fas fa-chevron-down"></i>
+        <ul>
+          <li>All</li>
+          <li>Africa</li>
+          <li>Americas</li>
+          <li>Asia</li>
+          <li>Europe</li>
+          <li>Oceania</li>
+        </ul>
+      </div>
     </div>
 
 

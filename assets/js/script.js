@@ -12,6 +12,9 @@ const countryDomain = document.getElementById("top_domain");
 const countryCurrencies = document.getElementById("currencies");
 const countryLanguages = document.getElementById("languages");
 
+
+
+
 // mode control
 
 const modeControl = document.getElementById("mode-control");
@@ -66,7 +69,7 @@ function displayCountryData(countryByCode) {
 
   countryDomain.innerHTML = countryData.topLevelDomain[0]
   countryLanguages.innerHTML = countryData.languages[0].name
-  countryCurrencies.innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");;
+  countryCurrencies.innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
 
 }
 
