@@ -66,7 +66,7 @@ function displayCountryData(countryByCode) {
 
   countryDomain.innerHTML = countryData.topLevelDomain[0]
   countryLanguages.innerHTML = countryData.languages[0].name
-  countryCurrencies.innerHTML = countryData.currencies[0].name;
+  countryCurrencies.innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");;
 
 }
 
