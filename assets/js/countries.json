@@ -360,7 +360,7 @@
     "symbol": "$"
   }],
   "demonym": "Anguillian",
-  "flag": "https://restcountries.eu/data/aia.svg",
+  "flag": "assets/images/flags/ai.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -457,7 +457,7 @@
     "symbol": "$"
   }],
   "demonym": "Antiguan, Barbudan",
-  "flag": "https://restcountries.eu/data/atg.svg",
+  "flag": "assets/images/flags/ag.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -614,7 +614,7 @@
     "symbol": "\u0192"
   }],
   "demonym": "Aruban",
-  "flag": "https://restcountries.eu/data/abw.svg",
+  "flag": "assets/images/flags/aw.svg",
   "languages": [{
     "iso639_1": "nl",
     "iso639_2": "nld",
@@ -801,7 +801,7 @@
     "symbol": "$"
   }],
   "demonym": "Bahamian",
-  "flag": "https://restcountries.eu/data/bhs.svg",
+  "flag": "assets/images/flags/bs.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -946,7 +946,7 @@
     "symbol": "$"
   }],
   "demonym": "Barbadian",
-  "flag": "https://restcountries.eu/data/brb.svg",
+  "flag": "assets/images/flags/bb.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -1110,7 +1110,7 @@
     "symbol": "$"
   }],
   "demonym": "Belizean",
-  "flag": "https://restcountries.eu/data/blz.svg",
+  "flag": "assets/images/flags/bz.svg",
   "gini": 53.1,
   "languages": [{
     "iso639_1": "en",
@@ -1218,7 +1218,7 @@
     "symbol": "$"
   }],
   "demonym": "Bermudian",
-  "flag": "https://restcountries.eu/data/bmu.svg",
+  "flag": "assets/images/flags/bm.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -1724,7 +1724,7 @@
     "symbol": "$"
   }],
   "demonym": "Virgin Islander",
-  "flag": "https://restcountries.eu/data/vgb.svg",
+  "flag": "assets/images/flags/vg.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -2124,7 +2124,7 @@
     "symbol": "$"
   }],
   "demonym": "Canadian",
-  "flag": "https://restcountries.eu/data/can.svg",
+  "flag": "assets/images/flags/ca.svg",
   "gini": 32.6,
   "languages": [{
     "iso639_1": "en",
@@ -2227,7 +2227,7 @@
     "symbol": "$"
   }],
   "demonym": "Caymanian",
-  "flag": "https://restcountries.eu/data/cym.svg",
+  "flag": "assets/images/flags/ky.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -2848,7 +2848,7 @@
     "symbol": "\u20a1"
   }],
   "demonym": "Costa Rican",
-  "flag": "https://restcountries.eu/data/cri.svg",
+  "flag": "assets/images/flags/cr.svg",
   "gini": 50.7,
   "languages": [{
     "iso639_1": "es",
@@ -2950,7 +2950,7 @@
     "symbol": "$"
   }],
   "demonym": "Cuban",
-  "flag": "https://restcountries.eu/data/cub.svg",
+  "flag": "assets/images/flags/cu.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "es",
@@ -2995,7 +2995,7 @@
     "symbol": "\u0192"
   }],
   "demonym": "Dutch",
-  "flag": "https://restcountries.eu/data/cuw.svg",
+  "flag": "assets/images/flags/cw.svg",
   "languages": [{
     "iso639_1": "nl",
     "iso639_2": "nld",
@@ -3263,7 +3263,7 @@
     "symbol": "$"
   }],
   "demonym": "Dominican",
-  "flag": "https://restcountries.eu/data/dma.svg",
+  "flag": "assets/images/flags/dm.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -3307,7 +3307,7 @@
     "symbol": "$"
   }],
   "demonym": "Dominican",
-  "flag": "https://restcountries.eu/data/dom.svg",
+  "flag": "assets/images/flags/do.svg",
   "gini": 47.2,
   "languages": [{
     "iso639_1": "es",
@@ -3464,7 +3464,7 @@
     "symbol": "$"
   }],
   "demonym": "Salvadoran",
-  "flag": "https://restcountries.eu/data/slv.svg",
+  "flag": "assets/images/flags/sv.svg",
   "gini": 48.3,
   "languages": [{
     "iso639_1": "es",
@@ -4461,7 +4461,7 @@
     "symbol": "kr"
   }],
   "demonym": "Greenlandic",
-  "flag": "https://restcountries.eu/data/grl.svg",
+  "flag": "assets/images/flags/gl.svg",
   "languages": [{
     "iso639_1": "kl",
     "iso639_2": "kal",
@@ -4505,7 +4505,7 @@
     "symbol": "$"
   }],
   "demonym": "Grenadian",
-  "flag": "https://restcountries.eu/data/grd.svg",
+  "flag": "assets/images/flags/gd.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -4650,7 +4650,7 @@
     "symbol": "Q"
   }],
   "demonym": "Guatemalan",
-  "flag": "https://restcountries.eu/data/gtm.svg",
+  "flag": "assets/images/flags/gt.svg",
   "gini": 55.9,
   "languages": [{
     "iso639_1": "es",
@@ -7281,7 +7281,7 @@
     "symbol": "$"
   }],
   "demonym": "Mexican",
-  "flag": "https://restcountries.eu/data/mex.svg",
+  "flag": "assets/images/flags/mx.svg",
   "gini": 47.0,
   "languages": [{
     "iso639_1": "es",
@@ -8675,7 +8675,7 @@
     "symbol": "$"
   }],
   "demonym": "Panamanian",
-  "flag": "https://restcountries.eu/data/pan.svg",
+  "flag": "assets/images/flags/pa.svg",
   "gini": 51.9,
   "languages": [{
     "iso639_1": "es",
@@ -9071,7 +9071,7 @@
     "symbol": "$"
   }],
   "demonym": "Puerto Rican",
-  "flag": "https://restcountries.eu/data/pri.svg",
+  "flag": "assets/images/flags/pr.svg",
   "languages": [{
     "iso639_1": "es",
     "iso639_2": "spa",
@@ -9417,7 +9417,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Saint Barth\u00e9lemy Islander",
-  "flag": "https://restcountries.eu/data/blm.svg",
+  "flag": "assets/images/flags/bl.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -9507,7 +9507,7 @@
     "symbol": "$"
   }],
   "demonym": "Kittian and Nevisian",
-  "flag": "https://restcountries.eu/data/kna.svg",
+  "flag": "assets/images/flags/kn.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -9555,7 +9555,7 @@
     "symbol": "$"
   }],
   "demonym": "Saint Lucian",
-  "flag": "https://restcountries.eu/data/lca.svg",
+  "flag": "assets/images/flags/lc.svg",
   "gini": 42.6,
   "languages": [{
     "iso639_1": "en",
@@ -9604,7 +9604,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Saint Martin Islander",
-  "flag": "https://restcountries.eu/data/maf.svg",
+  "flag": "assets/images/flags/mf.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -9658,7 +9658,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/spm.svg",
+  "flag": "assets/images/flags/pm.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -9702,7 +9702,7 @@
     "symbol": "$"
   }],
   "demonym": "Saint Vincentian",
-  "flag": "https://restcountries.eu/data/vct.svg",
+  "flag": "assets/images/flags/vc.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -10208,7 +10208,7 @@
     "symbol": "\u0192"
   }],
   "demonym": "Dutch",
-  "flag": "https://restcountries.eu/data/sxm.svg",
+  "flag": "assets/images/flags/sx.svg",
   "languages": [{
     "iso639_1": "nl",
     "iso639_2": "nld",
@@ -12030,7 +12030,7 @@
     "symbol": "$"
   }],
   "demonym": "American",
-  "flag": "https://restcountries.eu/data/usa.svg",
+  "flag": "assets/images/flags/us.svg",
   "gini": 48.0,
   "languages": [{
     "iso639_1": "en",
