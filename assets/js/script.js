@@ -13,6 +13,9 @@ const countryCurrencies = document.getElementById("currencies");
 const countryLanguages = document.getElementById("languages");
 
 
+const dropdownBtn = document.getElementById('dropdown');
+const regionFilters = dropdownBtn.querySelectorAll('li');
+// show and hide the filters (li tags)
 
 
 // mode control
@@ -21,11 +24,13 @@ const modeControl = document.getElementById("mode-control");
 
 
 /**
- * Load Cards' content onLoad
+ * Load content onLoad
  */
 document.addEventListener('DOMContentLoaded', function () {
   modeControl.addEventListener("click", changeMode)
-
+  dropdownBtn.addEventListener('click', () => {
+    dropdownBtn.classList.toggle('open');
+  });
 });
 
 
