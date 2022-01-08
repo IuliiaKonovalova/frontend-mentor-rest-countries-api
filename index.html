@@ -25,11 +25,10 @@
       </figure>
     </nav>
     <div class="subnav">
-
-      <label class="searchCountry">
-        <input type="search" placeholder="search for a country.." tabindex="0" />
-        <i class="fas fa-search"></i>
-      </label>
+      <div class="search__container">
+        <i class="fas fa-search search__icon"></i>
+        <input type="search__input" placeholder="Search for a country..." tabindex="0" />
+      </div>
 
       <select name="selectCont" class="continents">
         <label>Filter by Region</label>
@@ -47,13 +46,7 @@
   </header>
 
   <main id="main__container">
-    <div class="subheader">
-      <div class="search">Search for a country</div>
-      <select name="countries" id="countries">
-        <option value="a">A</option>
-      </select>
-      <div>Filter by region</div>
-    </div>
+
     <div id="flag__container">
       <img src="" alt="">
     </div>
