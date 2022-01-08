@@ -50,7 +50,7 @@ const displayCountries = function (countriesData) {
 
     countryCard.innerHTML = `
             <div class="flag__container">
-              <img src="" alt="${country.name}"  class="flag__image"/>
+              <img src="assets/images/flags/${country.name}.svg" alt="Flag of ${country.name}"  class="flag__image"/>
             </div>
             <div class="container__info">
               <h3 class="country__name">${country.name}</h3>
