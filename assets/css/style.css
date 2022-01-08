@@ -100,7 +100,7 @@ img {
   display: flex;
   width: inherit;
   justify-content: space-between;
-  margin: 5rem 4rem;
+  margin: 5rem 5rem;
 }
 
 .search__container {
@@ -108,7 +108,6 @@ img {
   display: flex;
   min-width: 100px;
   width: 25rem;
-  margin-left: 3rem;
 }
 
 .search__icon {
