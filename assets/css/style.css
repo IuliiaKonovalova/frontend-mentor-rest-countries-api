@@ -180,17 +180,27 @@ select:focus {
 
 
 .select__options {
-  position: absolute;
-  top: 3rem;
-  background-color: violet;
+
+  font-size: 1.2rem;
+  font-weight: 200;
+  /* background-color: violet; */
   padding-bottom: 2rem;
   height: 30rem;
 }
 
-option {
+.sth {
   margin-bottom: 4rem;
+  color: red;
 }
 
-#last {
-  padding-bottom: 2rem;
+optgroup {
+  content: attr(label);
+  display: block;
+  margin-bottom: 3rem;
+  height: 10rem;
+  border: none;
+}
+
+optgroup:focus {
+  outline: none;
 }

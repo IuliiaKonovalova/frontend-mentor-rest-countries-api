@@ -12,6 +12,9 @@ const countryDomain = document.getElementById("top_domain");
 const countryCurrencies = document.getElementById("currencies");
 const countryLanguages = document.getElementById("languages");
 
+
+
+
 /**
  * Load Cards' content onLoad
  */
