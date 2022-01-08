@@ -8,6 +8,8 @@
   <meta name="description" content="the solution to rest countries api from frontend mentor" />
   <meta name="keywords" content="rest countries api, frontend mentor, challenge, flexbox, grid, jest, api" />
   <meta name="author" content="Frontend Mentor, Iuliia Konovalova" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title>Document</title>
@@ -17,14 +19,15 @@
   <header class="header">
     <nav class="navbar">
       <h1 class="navbar__title">Where in the world?</h1>
-      <figure class="toggleState">
-        <img src="assets/images/darkmode_icon.svg" alt="dark mode icon">
+      <figure class="mode__control">
+        <img src="assets/images/darkmode_icon.svg" alt="dark mode icon" class="made__control--image">
         <figcaption>Dark Mode</figcaption>
       </figure>
     </nav>
-    <div class="searchAndSelect">
+    <div class="subnav">
+
       <label class="searchCountry">
-        <input type="search" placeholder="search for a country" tabindex="0" />
+        <input type="search" placeholder="search for a country.." tabindex="0" />
         <i class="fas fa-search"></i>
       </label>
 
@@ -41,7 +44,6 @@
       </select>
 
     </div>
-
   </header>
 
   <main id="main__container">

@@ -41,9 +41,6 @@ p {
 
 body {
   min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   align-items: center;
   font-family: var(--ff);
   background: var(--clr-primary--500);
@@ -51,11 +48,119 @@ body {
 }
 
 .navbar {
-  width: 100wv;
-  padding: 0 2rem;
+  width: 100vw;
+  padding: 0 5rem;
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+figcaption {
+  font-weight: 600;
+}
+
+.subnav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 1rem;
+  height: 1rem;
+  transform: rotate(-25deg);
+}
+
+.mode__control {
+  display: flex;
+  align-items: center;
+}
+
+.made__control--image {
+  margin-right: 1rem;
+}
+
+.subnav {
+  font-size: 14px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+
+  padding-bottom: 10%;
   background-color: aqua;
+}
+
+.allCountries {
+  width: 286px;
+  /* max-height: 280px;*/
+  margin-top: 27px;
+  box-shadow: 0 1px 6px 20px rgba(0, 0, 0, 0.06), 0 1px 2px 4px rgba(0, 0, 0, 0.12);
+  /*
+  --background-el: hsl(209, 23%, 22%);
+  background-color: var(--background-el);
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);*/
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.allCountries:hover {
+  cursor: pointer;
+}
+
+.selectOptions {
+  text-align: left;
+  margin-left: 10%;
+  width: 80%;
+}
+
+select.continents {
+  width: 45%;
+  background-color: var(--background-el);
+  margin: 5% 0 5% 7%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+select.continents.darkMode {
+  color: hsl(0, 0%, 100%);
+}
+
+input[type="search"].darkMode {
+  color: hsl(0, 0%, 100%);
+}
+
+label.searchCountry {
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  top: 25px;
+  left: 37px;
+  color: hsl(0, 0%, 52%);
+}
+
+input[type="search"] {
+  position: relative;
+  width: 88%;
+  padding: 24px 50px;
+  padding-left: 15%;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  margin: 5% auto;
+  background-color: var(--background-el);
+  /*--background-el: hsl(209, 23%, 22%);  */
+  color: hsl(200, 15%, 8%);
+}
+
+input[type="search"]:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  left: 10px;
+  content: "\f005";
 }
