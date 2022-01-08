@@ -45,16 +45,13 @@ function initialize(countriesData) {
   // options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`
 
   countriesList.innerHTML = options
-  console.log(countriesList)
   countriesList.selectedIndex = Math.floor(Math.random() * countriesList.length);
   displayCountryData(countriesList[countriesList.selectedIndex].value);
 }
 
 function displayCountryData(countryByCode) {
   const countryData = countries.find(country => country.alpha3Code === countryByCode);
-  console.log(countryData.name)
   countryName.innerHTML = countryData.name;
-  console.log(countryData.population.toLocaleString("en-US"))
   countryPopulation.innerHTML = countryData.population.toLocaleString("en-US")
   countryRegion.innerHTML = countryData.region;
   countryCapital.innerHTML = countryData.capital;
@@ -65,4 +62,5 @@ function displayCountryData(countryByCode) {
   countryDomain.innerHTML = countryData.topLevelDomain[0]
   countryLanguages.innerHTML = countryData.languages[0].name
   countryCurrencies.innerHTML = countryData.currencies[0].name;
+
 }

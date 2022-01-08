@@ -14,9 +14,34 @@
 </head>
 
 <body>
-  <header class="navbar">
-    <h1 class="navbar__title">Where in the world?</h1>
-    <button class="mode" id="mode_control">dark mode</button>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="navbar__title">Where in the world?</h1>
+      <figure class="toggleState">
+
+        <figcaption>Dark Mode</figcaption>
+      </figure>
+    </nav>
+    <div class="searchAndSelect">
+      <label class="searchCountry">
+        <input type="search" placeholder="search for a country" tabindex="0" />
+        <i class="fas fa-search"></i>
+      </label>
+
+      <select name="selectCont" class="continents">
+        <label>Filter by Region</label>
+        <optgroup>
+          <option value="all">All</option>
+          <option value="africa">Africa</option>
+          <option value="americas">America</option>
+          <option value="oceania">Oceania</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+        </optgroup>
+      </select>
+
+    </div>
+
   </header>
 
   <main id="main__container">
@@ -33,11 +58,24 @@
     <section id="data__container">
       <select id="countries"></select>
       <h2 class="country__info" id="country"></h2>
-      <div class="country__info">population: <span id="home_population"></span></div>
-      <div class="country__info">region: <span id="home_region"></span></div>
-      <div class="country__info">capital: <span id="home_capital"></span></div>
+      <div class="country__info">population: <span id="population"></span></div>
+      <div class="country__info">region: <span id="region"></span></div>
+      <div class="country__info">capital: <span id="capital"></span></div>
     </section>
   </main>
+
+  <!-- <div class="mainWrapper">
+    
+    <div class="countries">
+    </div>
+  </div> -->
+  <!-- <div class="modal">
+    <label class="backButton">
+      <input type="button" class="btn" id="backBtn" value="back">
+      <i class="fas fa-long-arrow-alt-left"></i>
+    </label>
+    
+  </div> -->
   <footer class="footer"></footer>
   <script src="assets/js/script.js"></script>
 </body>
