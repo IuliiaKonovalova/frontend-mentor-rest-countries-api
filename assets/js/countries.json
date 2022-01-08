@@ -12,7 +12,7 @@
     "symbol": "\u060b"
   }],
   "demonym": "Afghan",
-  "flag": "https://restcountries.eu/data/afg.svg",
+  "flag": "assets/images/flags/af.svg",
   "gini": 27.8,
   "languages": [{
     "iso639_1": "ps",
@@ -70,7 +70,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "\u00c5landish",
-  "flag": "https://restcountries.eu/data/ala.svg",
+  "flag": "assets/images/flags/ax.svg",
   "languages": [{
     "iso639_1": "sv",
     "iso639_2": "swe",
@@ -116,8 +116,7 @@
     "name": "Albanian lek",
     "symbol": "L"
   }],
-  "demonym": "Albanian",
-  "flag": "https://restcountries.eu/data/alb.svg",
+  "flag": "assets/images/flags/al.svg",
   "gini": 34.5,
   "languages": [{
     "iso639_1": "sq",
@@ -165,7 +164,7 @@
     "symbol": "\u062f.\u062c"
   }],
   "demonym": "Algerian",
-  "flag": "https://restcountries.eu/data/dza.svg",
+  "flag": "assets/images/flags/dz.svg",
   "gini": 35.3,
   "languages": [{
     "iso639_1": "ar",
@@ -218,7 +217,7 @@
     "symbol": "$"
   }],
   "demonym": "American Samoan",
-  "flag": "https://restcountries.eu/data/asm.svg",
+  "flag": "assets/images/flags/as.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -267,7 +266,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Andorran",
-  "flag": "https://restcountries.eu/data/and.svg",
+  "flag": "assets/images/flags/ad.svg",
   "languages": [{
     "iso639_1": "ca",
     "iso639_2": "cat",
@@ -311,7 +310,7 @@
     "symbol": "Kz"
   }],
   "demonym": "Angolan",
-  "flag": "https://restcountries.eu/data/ago.svg",
+  "flag": "assets/images/flags/ao.svg",
   "gini": 58.6,
   "languages": [{
     "iso639_1": "pt",
@@ -407,8 +406,7 @@
     "name": "British pound",
     "symbol": "\u00a3"
   }],
-  "demonym": "",
-  "flag": "https://restcountries.eu/data/ata.svg",
+  "flag": "assets/images/flags/aq.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -505,7 +503,7 @@
     "symbol": "$"
   }],
   "demonym": "Argentinean",
-  "flag": "https://restcountries.eu/data/arg.svg",
+  "flag": "assets/images/flags/ag.svg",
   "gini": 44.5,
   "languages": [{
     "iso639_1": "es",
@@ -560,7 +558,7 @@
     "symbol": null
   }],
   "demonym": "Armenian",
-  "flag": "https://restcountries.eu/data/arm.svg",
+  "flag": "assets/images/flags/am.svg",
   "gini": 30.9,
   "languages": [{
     "iso639_1": "hy",
@@ -663,7 +661,7 @@
     "symbol": "$"
   }],
   "demonym": "Australian",
-  "flag": "https://restcountries.eu/data/aus.svg",
+  "flag": "assets/images/flags/au.svg",
   "gini": 30.5,
   "languages": [{
     "iso639_1": "en",
@@ -708,7 +706,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Austrian",
-  "flag": "https://restcountries.eu/data/aut.svg",
+  "flag": "assets/images/flags/at.svg",
   "gini": 26.0,
   "languages": [{
     "iso639_1": "de",
@@ -756,7 +754,7 @@
     "symbol": null
   }],
   "demonym": "Azerbaijani",
-  "flag": "https://restcountries.eu/data/aze.svg",
+  "flag": "assets/images/flags/az.svg",
   "gini": 33.7,
   "languages": [{
     "iso639_1": "az",
@@ -4910,7 +4908,7 @@
     "symbol": "G"
   }],
   "demonym": "Haitian",
-  "flag": "https://restcountries.eu/data/hti.svg",
+  "flag": "assets/images/flags/ht.svg",
   "gini": 59.2,
   "languages": [{
     "iso639_1": "fr",
@@ -5068,7 +5066,7 @@
     "symbol": "L"
   }],
   "demonym": "Honduran",
-  "flag": "https://restcountries.eu/data/hnd.svg",
+  "flag": "assets/images/flags/hn.svg",
   "gini": 57.0,
   "languages": [{
     "iso639_1": "es",
@@ -5719,7 +5717,7 @@
     "symbol": "$"
   }],
   "demonym": "Jamaican",
-  "flag": "https://restcountries.eu/data/jam.svg",
+  "flag": "assets/images/flags/jm.svg",
   "gini": 45.5,
   "languages": [{
     "iso639_1": "en",
@@ -7088,7 +7086,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/mtq.svg",
+  "flag": "assets/images/flags/mq.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -7582,7 +7580,7 @@
     "symbol": "$"
   }],
   "demonym": "Montserratian",
-  "flag": "https://restcountries.eu/data/msr.svg",
+  "flag": "assets/images/flags/ms.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8081,7 +8079,7 @@
     "symbol": "C$"
   }],
   "demonym": "Nicaraguan",
-  "flag": "https://restcountries.eu/data/nic.svg",
+  "flag": "assets/images/flags/ni.svg",
   "gini": 40.5,
   "languages": [{
     "iso639_1": "es",
