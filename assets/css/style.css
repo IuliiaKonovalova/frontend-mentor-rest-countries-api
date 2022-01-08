@@ -6,9 +6,9 @@
   /*Very Dark Blue (Dark Mode Background)*/
   --clr-primary--500: hsl(207, 26%, 17%);
   /*Very Dark Blue (Light Mode Text)*/
-  --clr-primary--700: hsl(200, 15%, 8%);
+  --clr-primary--700: #111517;
   /*White (Dark Mode Text & Light Mode Elements): */
-  --clr-neutral--100: hsl(0, 0%, 100%);
+  --clr-neutral--100: #ffffff;
   /*Very Light Gray (Light Mode Background):*/
   --clr-neutral--300: hsl(0, 0%, 98%);
   /*Dark Gray (Light Mode Input):*/
@@ -85,11 +85,9 @@ img {
 }
 
 .subnav {
-  font-size: 14px;
   display: flex;
-  /* width: 100%; */
   justify-content: space-between;
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 .search__container {
@@ -97,6 +95,7 @@ img {
   display: flex;
   min-width: 100px;
   width: 25rem;
+  margin-left: 3rem;
 }
 
 .search__icon {
@@ -107,7 +106,7 @@ img {
 }
 
 
-.search__input {
+/* .search__input {
   border: 1px solid grey;
   border-radius: 5px;
   height: 20px;
@@ -115,10 +114,10 @@ img {
   padding: 2px 23px 2px 30px;
   outline: 0;
   background-color: var(--clr-primary--300);
-}
+} */
 
 input {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   padding: 1em 4.2em;
   width: 100%;
   border-radius: 0.2em;
@@ -134,8 +133,6 @@ input::placeholder {
 
 input:placeholder-shown {
   font-weight: 400;
-
-
 }
 
 input:not(:placeholder-shown) {
@@ -146,4 +143,54 @@ input:not(:placeholder-shown) {
 
 input:focus {
   outline: none;
+}
+
+
+.select__continent {
+  margin-right: 3rem;
+  font-size: 0.85rem;
+  padding: 1em;
+  border-radius: 0.2em;
+  text-align: left;
+  border: 3px solid var(--clr-primary--300);
+  background-color: var(--clr-primary--300);
+  color: var(--clr-neutral--100);
+  /* width: 10rem; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Remove default arrow */
+
+  padding-right: 3rem;
+  background-image: url("../images/icon-arrow-light.svg");
+  background-repeat: no-repeat;
+  background-size: 0.6rem;
+  background-position: 90% center;
+  cursor: pointer;
+  position: relative;
+}
+
+.all {
+  display: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+
+.select__options {
+  position: absolute;
+  top: 3rem;
+  background-color: violet;
+  padding-bottom: 2rem;
+  height: 30rem;
+}
+
+option {
+  margin-bottom: 4rem;
+}
+
+#last {
+  padding-bottom: 2rem;
 }
