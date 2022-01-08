@@ -34,68 +34,34 @@ fetch("assets/js/countries.json")
 
 function initialize(countriesData) {
   countries = countriesData;
-  console.log(countries[32])
-  // code
-  console.log(`code ${countries[32].alpha3Code}`)
 
-  //common name
-  console.log(`COMMON NAME        ${countries[50].name}`)
-  // official name
-  // console.log(`OFFICIAL NAME          ${countries[50].name.official}`)
-  // native name
-  console.log(`NATIVE NAME        ${countries[50].nativeName}`)
-
-  // borders
-  console.log(countries[32].borders) //could be more
-
-  //capital
-  console.log(countries[32].capital)
-  //population
-  console.log(countries[32].population)
-  //region
-  console.log(`region    ${countries[50].region}`)
-  //domain
-  // for (domain of countries[50].tld) {
-  //   console.log(domain)
-  // }
-  console.log(countries[50].topLevelDomain[0])
-  //subregion
-  console.log(` subregions       ${countries[50].subregion}`) /
-    // for (let currenc of countries[50].currencies) {
-    //   console.log(currenc)
-
-    // }
-    console.log(countries[50].currencies[0].name)
-  console.log(countries[50].flag)
-
-  console.log(countries[50].languages[0].name) //could be more
-
-  // console.log(countries[50].maps.googleMaps)
   let options = "";
 
   // console.log(countries[0].name)
-  for (let i = 0; i < countries.length; i++) {
 
 
-    countries.forEach(country => options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`);
-    // options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`
 
-    // console.log(options)
-  }
+  countries.forEach(country => options += `<option value="${country.alpha3Code}">${country.name}</option>`);
+  // options += `<option value="${countries[i].alpha3Code[0]}">${countries[i].name.common}</option>`
 
   countriesList.innerHTML = options
+  console.log(countriesList)
   countriesList.selectedIndex = Math.floor(Math.random() * countriesList.length);
   displayCountryData(countriesList[countriesList.selectedIndex].value);
 }
 
 function displayCountryData(countryByCode) {
-  const countryData = countries.find(country => country.alpha3Code[0] === countryByCode);
+  const countryData = countries.find(country => country.alpha3Code === countryByCode);
+  console.log(countryData.name)
   countryName.innerHTML = countryData.name;
-  countryNativeName.innerHTML = countryData.nativeName;
+  console.log(countryData.population.toLocaleString("en-US"))
   countryPopulation.innerHTML = countryData.population.toLocaleString("en-US")
   countryRegion.innerHTML = countryData.region;
-  countrySubregion.innerHTML = countryData.subregion;
   countryCapital.innerHTML = countryData.capital;
+  countryNativeName.innerHTML = countryData.nativeName;
+
+  countrySubregion.innerHTML = countryData.subregion;
+
   countryDomain.innerHTML = countryData.topLevelDomain[0]
   countryLanguages.innerHTML = countryData.languages[0].name
   countryCurrencies.innerHTML = countryData.currencies[0].name;
