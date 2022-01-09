@@ -12,9 +12,9 @@ const countryDomain = document.getElementById("top_domain");
 const countryCurrencies = document.getElementById("currencies");
 const countryLanguages = document.getElementById("languages");
 
-
+// dropdown menu
 const dropdownBtn = document.getElementById('dropdown');
-const regionFilters = dropdownBtn.querySelectorAll('li');
+const countriesRegions = dropdownBtn.querySelectorAll('li');
 
 // mode control
 const modeControl = document.getElementById("mode-control");
@@ -26,12 +26,13 @@ const searchCountry = document.getElementById("search");
  * Load content onLoad
  */
 document.addEventListener('DOMContentLoaded', function () {
-  modeControl.addEventListener("click", changeMode)
+  modeControl.addEventListener("click", changeMode);
   dropdownBtn.addEventListener('click', () => {
     dropdownBtn.classList.toggle('open');
   });
   fetchDataCountries();
 });
+
 
 async function fetchDataCountries() {
 
@@ -58,7 +59,7 @@ const displayCountries = function (countriesData) {
                   <strong>Population: </strong>
                   ${country.population}
                 </p>
-                <p class="country-region">
+                <p class="country__region">
                   <strong>Region: </strong>
                   ${country.region}
                 </p>
@@ -128,5 +129,23 @@ searchCountry.addEventListener('input', (e) => {
     } else {
       name.parentElement.parentElement.style.display = 'none'
     }
+  })
+})
+
+/**
+ * Select region
+ */
+countriesRegions.forEach(region => {
+  region.addEventListener('click', () => {
+    const value = region.innerText;
+    const countryRegion = document.querySelectorAll('.country__region');
+
+    countryRegion.forEach(region => {
+      if (region.innerText.includes(value) || value === 'All') {
+        region.parentElement.parentElement.parentElement.style.display = 'block';
+      } else {
+        region.parentElement.parentElement.parentElement.style.display = 'none';
+      }
+    });
   })
 })

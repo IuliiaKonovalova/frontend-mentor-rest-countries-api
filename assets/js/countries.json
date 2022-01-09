@@ -8768,7 +8768,7 @@
     "symbol": "\u20b2"
   }],
   "demonym": "Paraguayan",
-  "flag": "https://restcountries.eu/data/pry.svg",
+  "flag": "assets/images/flags/py.svg",
   "gini": 52.4,
   "languages": [{
     "iso639_1": "es",
@@ -8823,7 +8823,7 @@
     "symbol": "S/."
   }],
   "demonym": "Peruvian",
-  "flag": "https://restcountries.eu/data/per.svg",
+  "flag": "assets/images/flags/pe.svg",
   "gini": 48.1,
   "languages": [{
     "iso639_1": "es",
@@ -9118,7 +9118,7 @@
     "symbol": "\u0631.\u0642"
   }],
   "demonym": "Qatari",
-  "flag": "https://restcountries.eu/data/qat.svg",
+  "flag": "assets/images/flags/qa.svg",
   "gini": 41.1,
   "languages": [{
     "iso639_1": "ar",
@@ -9211,7 +9211,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/reu.svg",
+  "flag": "assets/images/flags/re.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -9259,7 +9259,7 @@
     "symbol": "lei"
   }],
   "demonym": "Romanian",
-  "flag": "https://restcountries.eu/data/rou.svg",
+  "flag": "assets/images/flags/ro.svg",
   "gini": 30.0,
   "languages": [{
     "iso639_1": "ro",
@@ -9307,7 +9307,7 @@
     "symbol": "\u20bd"
   }],
   "demonym": "Russian",
-  "flag": "https://restcountries.eu/data/rus.svg",
+  "flag": "assets/images/flags/ru.svg",
   "gini": 40.1,
   "languages": [{
     "iso639_1": "ru",
@@ -9356,7 +9356,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Rwandan",
-  "flag": "https://restcountries.eu/data/rwa.svg",
+  "flag": "assets/images/flags/rw.svg",
   "gini": 50.8,
   "languages": [{
     "iso639_1": "rw",
