@@ -2020,7 +2020,7 @@
     "symbol": "$"
   }],
   "demonym": "Cambodian",
-  "flag": "https://restcountries.eu/data/khm.svg",
+  "flag": "assets/images/flags/kh.svg",
   "gini": 37.9,
   "languages": [{
     "iso639_1": "km",
@@ -2176,7 +2176,7 @@
     "symbol": "Esc"
   }],
   "demonym": "Cape Verdian",
-  "flag": "https://restcountries.eu/data/cpv.svg",
+  "flag": "assets/images/flags/cv.svg",
   "gini": 50.5,
   "languages": [{
     "iso639_1": "pt",
@@ -2269,7 +2269,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Central African",
-  "flag": "https://restcountries.eu/data/caf.svg",
+  "flag": "assets/images/flags/cf.svg",
   "gini": 56.3,
   "languages": [{
     "iso639_1": "fr",
@@ -2323,7 +2323,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Chadian",
-  "flag": "https://restcountries.eu/data/tcd.svg",
+  "flag": "assets/images/flags/td.svg",
   "gini": 39.8,
   "languages": [{
     "iso639_1": "fr",
@@ -2377,7 +2377,7 @@
     "symbol": "$"
   }],
   "demonym": "Chilean",
-  "flag": "https://restcountries.eu/data/chl.svg",
+  "flag": "assets/images/flags/cl.svg",
   "gini": 52.1,
   "languages": [{
     "iso639_1": "es",
@@ -2431,7 +2431,7 @@
     "symbol": "\u00a5"
   }],
   "demonym": "Chinese",
-  "flag": "https://restcountries.eu/data/chn.svg",
+  "flag": "assets/images/flags/cn.svg",
   "gini": 47.0,
   "languages": [{
     "iso639_1": "zh",
@@ -2476,7 +2476,7 @@
     "symbol": "$"
   }],
   "demonym": "Christmas Island",
-  "flag": "https://restcountries.eu/data/cxr.svg",
+  "flag": "assets/images/flags/cx.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -2520,7 +2520,7 @@
     "symbol": "$"
   }],
   "demonym": "Cocos Islander",
-  "flag": "https://restcountries.eu/data/cck.svg",
+  "flag": "assets/images/flags/cc.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -2564,7 +2564,7 @@
     "symbol": "$"
   }],
   "demonym": "Colombian",
-  "flag": "https://restcountries.eu/data/col.svg",
+  "flag": "assets/images/flags/co.svg",
   "gini": 55.9,
   "languages": [{
     "iso639_1": "es",
@@ -2618,7 +2618,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Comoran",
-  "flag": "https://restcountries.eu/data/com.svg",
+  "flag": "assets/images/flags/km.svg",
   "gini": 64.3,
   "languages": [{
     "iso639_1": "ar",
@@ -2676,7 +2676,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Congolese",
-  "flag": "https://restcountries.eu/data/cog.svg",
+  "flag": "assets/images/flags/cg.svg",
   "gini": 47.3,
   "languages": [{
     "iso639_1": "fr",
@@ -2730,7 +2730,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Congolese",
-  "flag": "https://restcountries.eu/data/cod.svg",
+  "flag": "assets/images/flags/cd.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -2802,7 +2802,7 @@
     "symbol": "$"
   }],
   "demonym": "Cook Islander",
-  "flag": "https://restcountries.eu/data/cok.svg",
+  "flag": "assets/images/flags/ck.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -2896,7 +2896,7 @@
     "symbol": "kn"
   }],
   "demonym": "Croatian",
-  "flag": "https://restcountries.eu/data/hrv.svg",
+  "flag": "assets/images/flags/hr.svg",
   "gini": 33.7,
   "languages": [{
     "iso639_1": "hr",
@@ -3044,7 +3044,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Cypriot",
-  "flag": "https://restcountries.eu/data/cyp.svg",
+  "flag": "assets/images/flags/cy.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "el",
@@ -3102,7 +3102,7 @@
     "symbol": "K\u010d"
   }],
   "demonym": "Czech",
-  "flag": "https://restcountries.eu/data/cze.svg",
+  "flag": "assets/images/flags/cz.svg",
   "gini": 26.0,
   "languages": [{
     "iso639_1": "cs",
