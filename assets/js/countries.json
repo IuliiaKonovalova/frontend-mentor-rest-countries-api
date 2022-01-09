@@ -3155,7 +3155,7 @@
     "symbol": "kr"
   }],
   "demonym": "Danish",
-  "flag": "https://restcountries.eu/data/dnk.svg",
+  "flag": "assets/images/flags/dk.svg",
   "gini": 24.0,
   "languages": [{
     "iso639_1": "da",
@@ -3721,7 +3721,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "Falkland Islander",
-  "flag": "https://restcountries.eu/data/flk.svg",
+  "flag": "assets/images/flags/fk.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -3774,7 +3774,7 @@
     "symbol": "kr"
   }],
   "demonym": "Faroese",
-  "flag": "https://restcountries.eu/data/fro.svg",
+  "flag": "assets/images/flags/fo.svg",
   "languages": [{
     "iso639_1": "fo",
     "iso639_2": "fao",
@@ -3821,7 +3821,7 @@
     "symbol": "$"
   }],
   "demonym": "Fijian",
-  "flag": "https://restcountries.eu/data/fji.svg",
+  "flag": "assets/images/flags/fj.svg",
   "gini": 42.8,
   "languages": [{
     "iso639_1": "en",
@@ -3881,7 +3881,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Finnish",
-  "flag": "https://restcountries.eu/data/fin.svg",
+  "flag": "assets/images/flags/fi.svg",
   "gini": 26.9,
   "languages": [{
     "iso639_1": "fi",
@@ -3934,7 +3934,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/fra.svg",
+  "flag": "assets/images/flags/fr.svg",
   "gini": 32.7,
   "languages": [{
     "iso639_1": "fr",
@@ -3981,7 +3981,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "",
-  "flag": "https://restcountries.eu/data/guf.svg",
+  "flag": "assets/images/flags/gf.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -4033,7 +4033,7 @@
     "symbol": "Fr"
   }],
   "demonym": "French Polynesian",
-  "flag": "https://restcountries.eu/data/pyf.svg",
+  "flag": "assets/images/flags/pf.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -4077,7 +4077,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/atf.svg",
+  "flag": "assets/images/flags/tf.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
