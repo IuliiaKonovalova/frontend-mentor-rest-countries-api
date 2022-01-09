@@ -104,11 +104,15 @@ const changeMode = function () {
   console.log("hi!")
   const navbar = document.getElementById("navbar")
   const body = document.getElementById("body")
-  if (modeControl.innerHTML == "Light Mode") {
-    modeControl.innerHTML = "Dark Mode";
+  if (document.querySelector(".mode__title").innerHTML == "Light Mode") {
+    document.querySelector(".mode__title").innerHTML = "Dark Mode";
   } else {
-    modeControl.innerHTML = "Light Mode"
+    document.querySelector(".mode__title").innerHTML = "Light Mode"
   }
   navbar.classList.toggle("navbar--light")
   body.classList.toggle("body--light")
 }
+
+/**
+ * Control of the Mode
+ */
