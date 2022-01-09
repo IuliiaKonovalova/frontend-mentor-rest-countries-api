@@ -7782,7 +7782,7 @@
     "symbol": "R"
   }],
   "demonym": "Namibian",
-  "flag": "https://restcountries.eu/data/nam.svg",
+  "flag": "assets/images/flags/na.svg",
   "gini": 63.9,
   "languages": [{
     "iso639_1": "en",
@@ -7840,7 +7840,7 @@
     "symbol": "$"
   }],
   "demonym": "Nauruan",
-  "flag": "https://restcountries.eu/data/nru.svg",
+  "flag": "assets/images/flags/nr.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -7889,7 +7889,7 @@
     "symbol": "\u20a8"
   }],
   "demonym": "Nepalese",
-  "flag": "https://restcountries.eu/data/npl.svg",
+  "flag": "assets/images/flags/np.svg",
   "gini": 32.8,
   "languages": [{
     "iso639_1": "ne",
@@ -7937,7 +7937,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Dutch",
-  "flag": "https://restcountries.eu/data/nld.svg",
+  "flag": "assets/images/flags/nl.svg",
   "gini": 30.9,
   "languages": [{
     "iso639_1": "nl",
@@ -7985,7 +7985,7 @@
     "symbol": "Fr"
   }],
   "demonym": "New Caledonian",
-  "flag": "https://restcountries.eu/data/ncl.svg",
+  "flag": "assets/images/flags/nc.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -8029,7 +8029,7 @@
     "symbol": "$"
   }],
   "demonym": "New Zealander",
-  "flag": "https://restcountries.eu/data/nzl.svg",
+  "flag": "assets/images/flags/nz.svg",
   "gini": 36.2,
   "languages": [{
     "iso639_1": "en",
@@ -8129,7 +8129,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Nigerien",
-  "flag": "https://restcountries.eu/data/ner.svg",
+  "flag": "assets/images/flags/ne.svg",
   "gini": 34.6,
   "languages": [{
     "iso639_1": "fr",
@@ -8178,7 +8178,7 @@
     "symbol": "\u20a6"
   }],
   "demonym": "Nigerian",
-  "flag": "https://restcountries.eu/data/nga.svg",
+  "flag": "assets/images/flags/ng.svg",
   "gini": 48.8,
   "languages": [{
     "iso639_1": "en",
@@ -8231,7 +8231,7 @@
     "symbol": "$"
   }],
   "demonym": "Niuean",
-  "flag": "https://restcountries.eu/data/niu.svg",
+  "flag": "assets/images/flags/nu.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8275,7 +8275,7 @@
     "symbol": "$"
   }],
   "demonym": "Norfolk Islander",
-  "flag": "https://restcountries.eu/data/nfk.svg",
+  "flag": "assets/images/flags/nf.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8319,7 +8319,7 @@
     "symbol": "\u20a9"
   }],
   "demonym": "North Korean",
-  "flag": "https://restcountries.eu/data/prk.svg",
+  "flag": "assets/images/flags/kp.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ko",
@@ -8328,7 +8328,7 @@
     "nativeName": "\ud55c\uad6d\uc5b4"
   }],
   "latlng": [40, 127],
-  "name": "Korea (Democratic People's Republic of)",
+  "name": "North Korea",
   "nativeName": "\ubd81\ud55c",
   "numericCode": "408",
   "population": 25281000,
@@ -8364,7 +8364,7 @@
     "symbol": "$"
   }],
   "demonym": "American",
-  "flag": "https://restcountries.eu/data/mnp.svg",
+  "flag": "assets/images/flags/mp.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8413,7 +8413,7 @@
     "symbol": "kr"
   }],
   "demonym": "Norwegian",
-  "flag": "https://restcountries.eu/data/nor.svg",
+  "flag": "assets/images/flags/no.svg",
   "gini": 25.8,
   "languages": [{
     "iso639_1": "no",
