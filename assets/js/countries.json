@@ -11401,7 +11401,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Togolese",
-  "flag": "https://restcountries.eu/data/tgo.svg",
+  "flag": "assets/images/flags/tg.svg",
   "gini": 34.4,
   "languages": [{
     "iso639_1": "fr",
@@ -11450,7 +11450,7 @@
     "symbol": "$"
   }],
   "demonym": "Tokelauan",
-  "flag": "https://restcountries.eu/data/tkl.svg",
+  "flag": "assets/images/flags/tk.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -11494,7 +11494,7 @@
     "symbol": "T$"
   }],
   "demonym": "Tongan",
-  "flag": "https://restcountries.eu/data/ton.svg",
+  "flag": "assets/images/flags/to.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -11543,7 +11543,7 @@
     "symbol": "$"
   }],
   "demonym": "Trinidadian",
-  "flag": "https://restcountries.eu/data/tto.svg",
+  "flag": "assets/images/flags/tt.svg",
   "gini": 40.3,
   "languages": [{
     "iso639_1": "en",
@@ -11592,7 +11592,7 @@
     "symbol": "\u062f.\u062a"
   }],
   "demonym": "Tunisian",
-  "flag": "https://restcountries.eu/data/tun.svg",
+  "flag": "assets/images/flags/tn.svg",
   "gini": 41.4,
   "languages": [{
     "iso639_1": "ar",
@@ -11645,7 +11645,7 @@
     "symbol": null
   }],
   "demonym": "Turkish",
-  "flag": "https://restcountries.eu/data/tur.svg",
+  "flag": "assets/images/flags/tr.svg",
   "gini": 39.0,
   "languages": [{
     "iso639_1": "tr",
@@ -11690,7 +11690,7 @@
     "symbol": "m"
   }],
   "demonym": "Turkmen",
-  "flag": "https://restcountries.eu/data/tkm.svg",
+  "flag": "assets/images/flags/tm.svg",
   "gini": 40.8,
   "languages": [{
     "iso639_1": "tk",
@@ -11740,7 +11740,7 @@
     "symbol": "$"
   }],
   "demonym": "Turks and Caicos Islander",
-  "flag": "https://restcountries.eu/data/tca.svg",
+  "flag": "assets/images/flags/tc.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -11788,7 +11788,7 @@
     "symbol": "$"
   }],
   "demonym": "Tuvaluan",
-  "flag": "https://restcountries.eu/data/tuv.svg",
+  "flag": "assets/images/flags/tv.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
