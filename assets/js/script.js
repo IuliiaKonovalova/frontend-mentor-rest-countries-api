@@ -101,16 +101,12 @@ const displayCountries = function (countriesData) {
  * Control of the Mode
  */
 const changeMode = function () {
-  console.log("hi!")
-  const navbar = document.getElementById("navbar")
-  const body = document.getElementById("body")
   if (document.querySelector(".mode__title").innerHTML == "Light Mode") {
     document.querySelector(".mode__title").innerHTML = "Dark Mode";
   } else {
     document.querySelector(".mode__title").innerHTML = "Light Mode"
   }
-  navbar.classList.toggle("navbar--light")
-  body.classList.toggle("body--light")
+  document.body.classList.toggle('light');
 }
 
 /**
