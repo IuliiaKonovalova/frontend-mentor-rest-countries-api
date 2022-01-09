@@ -9458,7 +9458,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "Saint Helenian",
-  "flag": "https://restcountries.eu/data/shn.svg",
+  "flag": "assets/images/flags/sh.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -9748,7 +9748,7 @@
     "symbol": "T"
   }],
   "demonym": "Samoan",
-  "flag": "https://restcountries.eu/data/wsm.svg",
+  "flag": "assets/images/flags/ws.svg",
   "languages": [{
     "iso639_1": "sm",
     "iso639_2": "smo",
@@ -9797,7 +9797,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Sammarinese",
-  "flag": "https://restcountries.eu/data/smr.svg",
+  "flag": "assets/images/flags/sm.svg",
   "languages": [{
     "iso639_1": "it",
     "iso639_2": "ita",
@@ -9841,7 +9841,7 @@
     "symbol": "Db"
   }],
   "demonym": "Sao Tomean",
-  "flag": "https://restcountries.eu/data/stp.svg",
+  "flag": "assets/images/flags/st.svg",
   "gini": 50.8,
   "languages": [{
     "iso639_1": "pt",
@@ -9890,7 +9890,7 @@
     "symbol": "\u0631.\u0633"
   }],
   "demonym": "Saudi Arabian",
-  "flag": "https://restcountries.eu/data/sau.svg",
+  "flag": "assets/images/flags/sa.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -9939,7 +9939,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Senegalese",
-  "flag": "https://restcountries.eu/data/sen.svg",
+  "flag": "assets/images/flags/sn.svg",
   "gini": 39.2,
   "languages": [{
     "iso639_1": "fr",
@@ -9988,7 +9988,7 @@
     "symbol": "\u0434\u0438\u043d."
   }],
   "demonym": "Serbian",
-  "flag": "https://restcountries.eu/data/srb.svg",
+  "flag": "assets/images/flags/rs.svg",
   "gini": 27.8,
   "languages": [{
     "iso639_1": "sr",
@@ -10036,7 +10036,7 @@
     "symbol": "\u20a8"
   }],
   "demonym": "Seychellois",
-  "flag": "https://restcountries.eu/data/syc.svg",
+  "flag": "assets/images/flags/sc.svg",
   "gini": 65.8,
   "languages": [{
     "iso639_1": "fr",
@@ -10090,7 +10090,7 @@
     "symbol": "Le"
   }],
   "demonym": "Sierra Leonean",
-  "flag": "https://restcountries.eu/data/sle.svg",
+  "flag": "assets/images/flags/sl.svg",
   "gini": 42.5,
   "languages": [{
     "iso639_1": "en",
@@ -10143,7 +10143,7 @@
     "symbol": "$"
   }],
   "demonym": "Singaporean",
-  "flag": "https://restcountries.eu/data/sgp.svg",
+  "flag": "assets/images/flags/sg.svg",
   "gini": 48.1,
   "languages": [{
     "iso639_1": "en",
@@ -10348,7 +10348,7 @@
     "symbol": "$"
   }],
   "demonym": "Solomon Islander",
-  "flag": "https://restcountries.eu/data/slb.svg",
+  "flag": "assets/images/flags/sb.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -10392,7 +10392,7 @@
     "symbol": "Sh"
   }],
   "demonym": "Somali",
-  "flag": "https://restcountries.eu/data/som.svg",
+  "flag": "assets/images/flags/so.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "so",
@@ -10547,7 +10547,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "South Georgia and the South Sandwich Islander",
-  "flag": "https://restcountries.eu/data/sgs.svg",
+  "flag": "assets/images/flags/gs.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -10641,7 +10641,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "South Sudanese",
-  "flag": "https://restcountries.eu/data/ssd.svg",
+  "flag": "assets/images/flags/ss.svg",
   "gini": 45.5,
   "languages": [{
     "iso639_1": "en",
@@ -10690,7 +10690,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Spanish",
-  "flag": "https://restcountries.eu/data/esp.svg",
+  "flag": "assets/images/flags/es.svg",
   "gini": 34.7,
   "languages": [{
     "iso639_1": "es",
@@ -10738,7 +10738,7 @@
     "symbol": "Rs"
   }],
   "demonym": "Sri Lankan",
-  "flag": "https://restcountries.eu/data/lka.svg",
+  "flag": "assets/images/flags/lk.svg",
   "gini": 40.3,
   "languages": [{
     "iso639_1": "si",
@@ -10791,7 +10791,7 @@
     "symbol": "\u062c.\u0633."
   }],
   "demonym": "Sudanese",
-  "flag": "https://restcountries.eu/data/sdn.svg",
+  "flag": "assets/images/flags/sd.svg",
   "gini": 35.3,
   "languages": [{
     "iso639_1": "ar",
@@ -10849,7 +10849,7 @@
     "symbol": "$"
   }],
   "demonym": "Surinamer",
-  "flag": "https://restcountries.eu/data/sur.svg",
+  "flag": "assets/images/flags/sr.svg",
   "gini": 52.9,
   "languages": [{
     "iso639_1": "nl",
@@ -10902,7 +10902,7 @@
     "symbol": "kr"
   }],
   "demonym": "Norwegian",
-  "flag": "https://restcountries.eu/data/sjm.svg",
+  "flag": "assets/images/flags/sj.svg",
   "languages": [{
     "iso639_1": "no",
     "iso639_2": "nor",
@@ -10946,7 +10946,7 @@
     "symbol": "L"
   }],
   "demonym": "Swazi",
-  "flag": "https://restcountries.eu/data/swz.svg",
+  "flag": "assets/images/flags/sz.svg",
   "gini": 51.5,
   "languages": [{
     "iso639_1": "en",
@@ -10960,7 +10960,7 @@
     "nativeName": "SiSwati"
   }],
   "latlng": [-26.5, 31.5],
-  "name": "Swaziland",
+  "name": "Eswatini (Swaziland)",
   "nativeName": "Swaziland",
   "numericCode": "748",
   "population": 1132657,
