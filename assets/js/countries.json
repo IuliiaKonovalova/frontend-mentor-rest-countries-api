@@ -6577,7 +6577,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Luxembourger",
-  "flag": "https://restcountries.eu/data/lux.svg",
+  "flag": "assets/images/flags/lu.svg",
   "gini": 30.8,
   "languages": [{
     "iso639_1": "fr",
@@ -6635,7 +6635,7 @@
     "symbol": "P"
   }],
   "demonym": "Chinese",
-  "flag": "https://restcountries.eu/data/mac.svg",
+  "flag": "assets/images/flags/mo.svg",
   "languages": [{
     "iso639_1": "zh",
     "iso639_2": "zho",
@@ -6684,7 +6684,7 @@
     "symbol": "\u0434\u0435\u043d"
   }],
   "demonym": "Macedonian",
-  "flag": "https://restcountries.eu/data/mkd.svg",
+  "flag": "assets/images/flags/mk.svg",
   "gini": 43.2,
   "languages": [{
     "iso639_1": "mk",
@@ -6693,7 +6693,7 @@
     "nativeName": "\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 \u0458\u0430\u0437\u0438\u043a"
   }],
   "latlng": [41.83333333, 22],
-  "name": "Macedonia (the former Yugoslav Republic of)",
+  "name": "Macedonia",
   "nativeName": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
   "numericCode": "807",
   "population": 2058539,
@@ -6732,7 +6732,7 @@
     "symbol": "Ar"
   }],
   "demonym": "Malagasy",
-  "flag": "https://restcountries.eu/data/mdg.svg",
+  "flag": "assets/images/flags/mg.svg",
   "gini": 44.1,
   "languages": [{
     "iso639_1": "fr",
@@ -6786,7 +6786,7 @@
     "symbol": "MK"
   }],
   "demonym": "Malawian",
-  "flag": "https://restcountries.eu/data/mwi.svg",
+  "flag": "assets/images/flags/mw.svg",
   "gini": 39.0,
   "languages": [{
     "iso639_1": "en",
@@ -6840,7 +6840,7 @@
     "symbol": "RM"
   }],
   "demonym": "Malaysian",
-  "flag": "https://restcountries.eu/data/mys.svg",
+  "flag": "assets/images/flags/my.svg",
   "gini": 46.2,
   "languages": [{
     "iso639_1": null,
@@ -6888,7 +6888,7 @@
     "symbol": ".\u0783"
   }],
   "demonym": "Maldivan",
-  "flag": "https://restcountries.eu/data/mdv.svg",
+  "flag": "assets/images/flags/mv.svg",
   "gini": 37.4,
   "languages": [{
     "iso639_1": "dv",
@@ -6936,7 +6936,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Malian",
-  "flag": "https://restcountries.eu/data/mli.svg",
+  "flag": "assets/images/flags/ml.svg",
   "gini": 33.0,
   "languages": [{
     "iso639_1": "fr",
@@ -6985,7 +6985,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Maltese",
-  "flag": "https://restcountries.eu/data/mlt.svg",
+  "flag": "assets/images/flags/mt.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "mt",
@@ -7038,7 +7038,7 @@
     "symbol": "$"
   }],
   "demonym": "Marshallese",
-  "flag": "https://restcountries.eu/data/mhl.svg",
+  "flag": "assets/images/flags/mh.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -7130,7 +7130,7 @@
     "symbol": "UM"
   }],
   "demonym": "Mauritanian",
-  "flag": "https://restcountries.eu/data/mrt.svg",
+  "flag": "assets/images/flags/mr.svg",
   "gini": 40.5,
   "languages": [{
     "iso639_1": "ar",
@@ -7183,7 +7183,7 @@
     "symbol": "\u20a8"
   }],
   "demonym": "Mauritian",
-  "flag": "https://restcountries.eu/data/mus.svg",
+  "flag": "assets/images/flags/mu.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "en",
@@ -7231,7 +7231,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "French",
-  "flag": "https://restcountries.eu/data/myt.svg",
+  "flag": "assets/images/flags/yt.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -7336,7 +7336,7 @@
     "symbol": "$"
   }],
   "demonym": "Micronesian",
-  "flag": "https://restcountries.eu/data/fsm.svg",
+  "flag": "assets/images/flags/fm.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -7344,7 +7344,7 @@
     "nativeName": "English"
   }],
   "latlng": [6.91666666, 158.25],
-  "name": "Micronesia (Federated States of)",
+  "name": "Micronesia",
   "nativeName": "Micronesia",
   "numericCode": "583",
   "population": 102800,
@@ -7380,7 +7380,7 @@
     "symbol": "L"
   }],
   "demonym": "Moldovan",
-  "flag": "https://restcountries.eu/data/mda.svg",
+  "flag": "assets/images/flags/md.svg",
   "gini": 33.0,
   "languages": [{
     "iso639_1": "ro",
@@ -7389,7 +7389,7 @@
     "nativeName": "Rom\u00e2n\u0103"
   }],
   "latlng": [47, 29],
-  "name": "Moldova (Republic of)",
+  "name": "Moldova",
   "nativeName": "Moldova",
   "numericCode": "498",
   "population": 3553100,
@@ -7428,7 +7428,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Monegasque",
-  "flag": "https://restcountries.eu/data/mco.svg",
+  "flag": "assets/images/flags/mc.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -7517,7 +7517,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Montenegrin",
-  "flag": "https://restcountries.eu/data/mne.svg",
+  "flag": "assets/images/flags/me.svg",
   "gini": 30.0,
   "languages": [{
     "iso639_1": "sr",
@@ -7628,7 +7628,7 @@
     "symbol": "\u062f.\u0645."
   }],
   "demonym": "Moroccan",
-  "flag": "https://restcountries.eu/data/mar.svg",
+  "flag": "assets/images/flags/ma.svg",
   "gini": 40.9,
   "languages": [{
     "iso639_1": "ar",
@@ -7681,7 +7681,7 @@
     "symbol": "MT"
   }],
   "demonym": "Mozambican",
-  "flag": "https://restcountries.eu/data/moz.svg",
+  "flag": "assets/images/flags/mz.svg",
   "gini": 45.7,
   "languages": [{
     "iso639_1": "pt",
@@ -7730,7 +7730,7 @@
     "symbol": "Ks"
   }],
   "demonym": "Burmese",
-  "flag": "https://restcountries.eu/data/mmr.svg",
+  "flag": "assets/images/flags/mm.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "my",
