@@ -4222,7 +4222,7 @@
     "symbol": "\u10da"
   }],
   "demonym": "Georgian",
-  "flag": "https://restcountries.eu/data/geo.svg",
+  "flag": "assets/images/flags/ge.svg",
   "gini": 41.3,
   "languages": [{
     "iso639_1": "ka",
@@ -4267,7 +4267,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "German",
-  "flag": "https://restcountries.eu/data/deu.svg",
+  "flag": "assets/images/flags/de.svg",
   "gini": 28.3,
   "languages": [{
     "iso639_1": "de",
@@ -4411,7 +4411,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Greek",
-  "flag": "https://restcountries.eu/data/grc.svg",
+  "flag": "assets/images/flags/gr.svg",
   "gini": 34.3,
   "languages": [{
     "iso639_1": "el",
@@ -5262,7 +5262,7 @@
     "symbol": "\u20b9"
   }],
   "demonym": "Indian",
-  "flag": "https://restcountries.eu/data/ind.svg",
+  "flag": "assets/images/flags/in.svg",
   "gini": 33.4,
   "languages": [{
     "iso639_1": "hi",
@@ -5510,7 +5510,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Irish",
-  "flag": "https://restcountries.eu/data/irl.svg",
+  "flag": "assets/images/flags/ie.svg",
   "gini": 34.3,
   "languages": [{
     "iso639_1": "ga",
@@ -5766,7 +5766,7 @@
     "symbol": "\u00a5"
   }],
   "demonym": "Japanese",
-  "flag": "https://restcountries.eu/data/jpn.svg",
+  "flag": "assets/images/flags/jp.svg",
   "gini": 38.1,
   "languages": [{
     "iso639_1": "ja",
@@ -5967,7 +5967,7 @@
     "symbol": "Sh"
   }],
   "demonym": "Kenyan",
-  "flag": "https://restcountries.eu/data/ken.svg",
+  "flag": "assets/images/flags/ke.svg",
   "gini": 47.7,
   "languages": [{
     "iso639_1": "en",
@@ -7472,7 +7472,7 @@
     "symbol": "\u20ae"
   }],
   "demonym": "Mongolian",
-  "flag": "https://restcountries.eu/data/mng.svg",
+  "flag": "assets/images/flags/mn.svg",
   "gini": 36.5,
   "languages": [{
     "iso639_1": "mn",
@@ -10252,7 +10252,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Slovak",
-  "flag": "https://restcountries.eu/data/svk.svg",
+  "flag": "assets/images/flags/sk.svg",
   "gini": 26.0,
   "languages": [{
     "iso639_1": "sk",
@@ -10300,7 +10300,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Slovene",
-  "flag": "https://restcountries.eu/data/svn.svg",
+  "flag": "assets/images/flags/si.svg",
   "gini": 31.2,
   "languages": [{
     "iso639_1": "sl",
@@ -10596,7 +10596,7 @@
     "symbol": "\u20a9"
   }],
   "demonym": "South Korean",
-  "flag": "https://restcountries.eu/data/kor.svg",
+  "flag": "assets/images/flags/kr.svg",
   "gini": 31.3,
   "languages": [{
     "iso639_1": "ko",
@@ -10605,7 +10605,7 @@
     "nativeName": "\ud55c\uad6d\uc5b4"
   }],
   "latlng": [37, 127.5],
-  "name": "Korea (Republic of)",
+  "name": "South Korea",
   "nativeName": "\ub300\ud55c\ubbfc\uad6d",
   "numericCode": "410",
   "population": 50801405,
@@ -11000,7 +11000,7 @@
     "symbol": "kr"
   }],
   "demonym": "Swedish",
-  "flag": "https://restcountries.eu/data/swe.svg",
+  "flag": "assets/images/flags/se.svg",
   "gini": 25.0,
   "languages": [{
     "iso639_1": "sv",
@@ -11048,7 +11048,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Swiss",
-  "flag": "https://restcountries.eu/data/che.svg",
+  "flag": "assets/images/flags/ch.svg",
   "gini": 33.7,
   "languages": [{
     "iso639_1": "de",
@@ -11106,7 +11106,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "Syrian",
-  "flag": "https://restcountries.eu/data/syr.svg",
+  "flag": "assets/images/flags/sy.svg",
   "gini": 35.8,
   "languages": [{
     "iso639_1": "ar",
@@ -11155,7 +11155,7 @@
     "symbol": "$"
   }],
   "demonym": "Taiwanese",
-  "flag": "https://restcountries.eu/data/twn.svg",
+  "flag": "assets/images/flags/tw.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "zh",
@@ -11200,7 +11200,7 @@
     "symbol": "\u0405\u041c"
   }],
   "demonym": "Tadzhik",
-  "flag": "https://restcountries.eu/data/tjk.svg",
+  "flag": "assets/images/flags/tj.svg",
   "gini": 30.8,
   "languages": [{
     "iso639_1": "tg",
@@ -11250,7 +11250,7 @@
     "symbol": "Sh"
   }],
   "demonym": "Tanzanian",
-  "flag": "https://restcountries.eu/data/tza.svg",
+  "flag": "assets/images/flags/tz.svg",
   "gini": 37.6,
   "languages": [{
     "iso639_1": "sw",
@@ -11304,7 +11304,7 @@
     "symbol": "\u0e3f"
   }],
   "demonym": "Thai",
-  "flag": "https://restcountries.eu/data/tha.svg",
+  "flag": "assets/images/flags/th.svg",
   "gini": 40.0,
   "languages": [{
     "iso639_1": "th",
@@ -11356,7 +11356,7 @@
     "symbol": null
   }],
   "demonym": "East Timorese",
-  "flag": "https://restcountries.eu/data/tls.svg",
+  "flag": "assets/images/flags/tl.svg",
   "gini": 31.9,
   "languages": [{
     "iso639_1": "pt",
