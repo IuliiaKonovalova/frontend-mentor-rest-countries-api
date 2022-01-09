@@ -503,7 +503,7 @@
     "symbol": "$"
   }],
   "demonym": "Argentinean",
-  "flag": "assets/images/flags/ag.svg",
+  "flag": "assets/images/flags/ar.svg",
   "gini": 44.5,
   "languages": [{
     "iso639_1": "es",
@@ -847,7 +847,7 @@
     "symbol": ".\u062f.\u0628"
   }],
   "demonym": "Bahraini",
-  "flag": "https://restcountries.eu/data/bhr.svg",
+  "flag": "assets/images/flags/bh.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -896,7 +896,7 @@
     "symbol": "\u09f3"
   }],
   "demonym": "Bangladeshi",
-  "flag": "https://restcountries.eu/data/bgd.svg",
+  "flag": "assets/images/flags/bd.svg",
   "gini": 32.1,
   "languages": [{
     "iso639_1": "bn",
@@ -996,7 +996,7 @@
     "symbol": "Br"
   }],
   "demonym": "Belarusian",
-  "flag": "https://restcountries.eu/data/blr.svg",
+  "flag": "assets/images/flags/by.svg",
   "gini": 26.5,
   "languages": [{
     "iso639_1": "be",
