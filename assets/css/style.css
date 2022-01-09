@@ -187,45 +187,50 @@ input:focus {
 .main__container {
   margin: 0 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 5rem;
 }
 
 .data__card {
   background-color: var(--clr-primary--300);
+  border-radius: var(--br);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  cursor: pointer;
   display: grid;
-  grid-template-rows: 1fr 0.6fr;
-  padding: 1rem;
+  grid-template-rows: 1fr 1.2fr;
 }
 
 .flag__container {
   justify-self: stretch;
   align-self: center;
-  /* width: inherit; */
-
 }
 
 .flag__image {
   object-fit: cover;
-  height: 200px;
+  height: 14rem;
   width: 100%;
   transform: rotate(0deg);
+  border-top-left-radius: var(--br);
+  border-top-right-radius: var(--br);
 }
 
 .container__info {
-  padding: 1.5rem;
+  padding: 2rem;
   align-self: center;
-  /* justify-self: center; */
+
 }
 
 .country__name {
-  font-size: 1.2rem;
-  padding-bottom: 0.7rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.9rem;
 }
 
 .data__result {
   color: rgba(255, 255, 255, 0.829);
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .country__container--single {

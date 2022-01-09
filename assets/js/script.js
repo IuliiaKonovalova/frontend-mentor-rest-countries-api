@@ -54,18 +54,20 @@ const displayCountries = function (countriesData) {
             </div>
             <div class="container__info">
               <h3 class="country__name">${country.name}</h3>
-              <p>
-                <strong>Population: </strong>
-                ${country.population}
-              </p>
-              <p class="country-region">
-                <strong>Region: </strong>
-                ${country.region}
-              </p>
-              <p>
-                <strong>Capital:</strong>
-                ${country.capital}
-              </p>
+              <div class="data__result">
+                <p>
+                  <strong>Population: </strong>
+                  ${country.population}
+                </p>
+                <p class="country-region">
+                  <strong>Region: </strong>
+                  ${country.region}
+                </p>
+                <p>
+                  <strong>Capital:</strong>
+                  ${country.capital}
+                </p>
+              </div>
             </div>
         `;
 
