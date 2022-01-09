@@ -15,12 +15,11 @@ const countryLanguages = document.getElementById("languages");
 
 const dropdownBtn = document.getElementById('dropdown');
 const regionFilters = dropdownBtn.querySelectorAll('li');
-// show and hide the filters (li tags)
-
 
 // mode control
-
 const modeControl = document.getElementById("mode-control");
+// search
+const searchCountry = document.getElementById("search");
 
 
 /**
@@ -114,5 +113,20 @@ const changeMode = function () {
 }
 
 /**
- * Control of the Mode
+ * Search country by the user's input
  */
+searchCountry.addEventListener('input', (e) => {
+  const {
+    value
+  } = e.target;
+
+  const countryName = document.querySelectorAll(".country__name");
+  countryName.forEach(name => {
+
+    if (name.innerText.toLowerCase().includes(value.toLowerCase())) {
+      name.parentElement.parentElement.style.display = 'block'
+    } else {
+      name.parentElement.parentElement.style.display = 'none'
+    }
+  })
+})
