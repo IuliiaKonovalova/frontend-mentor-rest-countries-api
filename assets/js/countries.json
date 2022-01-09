@@ -1050,7 +1050,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Belgian",
-  "flag": "https://restcountries.eu/data/bel.svg",
+  "flag": "assets/images/flags/be.svg",
   "gini": 33.0,
   "languages": [{
     "iso639_1": "nl",
@@ -1167,7 +1167,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Beninese",
-  "flag": "https://restcountries.eu/data/ben.svg",
+  "flag": "assets/images/flags/bj.svg",
   "gini": 38.6,
   "languages": [{
     "iso639_1": "fr",
@@ -1264,7 +1264,7 @@
     "symbol": "\u20b9"
   }],
   "demonym": "Bhutanese",
-  "flag": "https://restcountries.eu/data/btn.svg",
+  "flag": "assets/images/flags/bt.svg",
   "gini": 38.1,
   "languages": [{
     "iso639_1": "dz",
@@ -1312,7 +1312,7 @@
     "symbol": "Bs."
   }],
   "demonym": "Bolivian",
-  "flag": "https://restcountries.eu/data/bol.svg",
+  "flag": "assets/images/flags/bo.svg",
   "gini": 56.3,
   "languages": [{
     "iso639_1": "es",
@@ -1372,7 +1372,7 @@
     "symbol": "$"
   }],
   "demonym": "Dutch",
-  "flag": "https://restcountries.eu/data/bes.svg",
+  "flag": "assets/images/flags/bq.svg",
   "languages": [{
     "iso639_1": "nl",
     "iso639_2": "nld",
@@ -1411,7 +1411,7 @@
     "symbol": null
   }],
   "demonym": "Bosnian, Herzegovinian",
-  "flag": "https://restcountries.eu/data/bih.svg",
+  "flag": "assets/images/flags/ba.svg",
   "gini": 36.2,
   "languages": [{
     "iso639_1": "bs",
@@ -1469,7 +1469,7 @@
     "symbol": "P"
   }],
   "demonym": "Motswana",
-  "flag": "https://restcountries.eu/data/bwa.svg",
+  "flag": "assets/images/flags/bw.svg",
   "gini": 61.0,
   "languages": [{
     "iso639_1": "en",
@@ -1523,7 +1523,7 @@
     "symbol": "kr"
   }],
   "demonym": "",
-  "flag": "https://restcountries.eu/data/bvt.svg",
+  "flag": "assets/images/flags/bv.svg",
   "languages": [{
     "iso639_1": "no",
     "iso639_2": "nor",
@@ -1577,7 +1577,7 @@
     "symbol": "R$"
   }],
   "demonym": "Brazilian",
-  "flag": "https://restcountries.eu/data/bra.svg",
+  "flag": "assets/images/flags/br.svg",
   "gini": 54.7,
   "languages": [{
     "iso639_1": "pt",
@@ -1627,7 +1627,7 @@
     "symbol": "$"
   }],
   "demonym": "Indian",
-  "flag": "https://restcountries.eu/data/iot.svg",
+  "flag": "assets/images/flags/io.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -1674,7 +1674,7 @@
     "symbol": "$"
   }],
   "demonym": "American",
-  "flag": "https://restcountries.eu/data/umi.svg",
+  "flag": "assets/images/flags/um.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -1766,7 +1766,7 @@
     "symbol": "$"
   }],
   "demonym": "Virgin Islander",
-  "flag": "https://restcountries.eu/data/vir.svg",
+  "flag": "assets/images/flags/vi.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -1813,7 +1813,7 @@
     "symbol": "$"
   }],
   "demonym": "Bruneian",
-  "flag": "https://restcountries.eu/data/brn.svg",
+  "flag": "assets/images/flags/bn.svg",
   "languages": [{
     "iso639_1": "ms",
     "iso639_2": "msa",
@@ -1860,7 +1860,7 @@
     "symbol": "\u043b\u0432"
   }],
   "demonym": "Bulgarian",
-  "flag": "https://restcountries.eu/data/bgr.svg",
+  "flag": "assets/images/flags/bg.svg",
   "gini": 28.2,
   "languages": [{
     "iso639_1": "bg",
@@ -1908,7 +1908,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Burkinabe",
-  "flag": "https://restcountries.eu/data/bfa.svg",
+  "flag": "assets/images/flags/bf.svg",
   "gini": 39.8,
   "languages": [{
     "iso639_1": "fr",
@@ -1962,7 +1962,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Burundian",
-  "flag": "https://restcountries.eu/data/bdi.svg",
+  "flag": "assets/images/flags/gt.svg",
   "gini": 33.3,
   "languages": [{
     "iso639_1": "fr",
@@ -2068,7 +2068,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Cameroonian",
-  "flag": "https://restcountries.eu/data/cmr.svg",
+  "flag": "assets/images/flags/cm.svg",
   "gini": 38.9,
   "languages": [{
     "iso639_1": "en",
