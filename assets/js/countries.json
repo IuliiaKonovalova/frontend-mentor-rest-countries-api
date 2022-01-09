@@ -8471,7 +8471,7 @@
     "symbol": "\u0631.\u0639."
   }],
   "demonym": "Omani",
-  "flag": "https://restcountries.eu/data/omn.svg",
+  "flag": "assets/images/flags/om.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -8520,7 +8520,7 @@
     "symbol": "\u20a8"
   }],
   "demonym": "Pakistani",
-  "flag": "https://restcountries.eu/data/pak.svg",
+  "flag": "assets/images/flags/pk.svg",
   "gini": 30.0,
   "languages": [{
     "iso639_1": "en",
@@ -8577,7 +8577,7 @@
     "symbol": "$"
   }],
   "demonym": "Palauan",
-  "flag": "https://restcountries.eu/data/plw.svg",
+  "flag": "assets/images/flags/pw.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8620,7 +8620,7 @@
     "symbol": "\u20aa"
   }],
   "demonym": "Palestinian",
-  "flag": "https://restcountries.eu/data/pse.svg",
+  "flag": "assets/images/flags/ps.svg",
   "gini": 35.5,
   "languages": [{
     "iso639_1": "ar",
@@ -8629,7 +8629,7 @@
     "nativeName": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
   }],
   "latlng": [31.9, 35.2],
-  "name": "Palestine, State of",
+  "name": "Palestine",
   "nativeName": "\u0641\u0644\u0633\u0637\u064a\u0646",
   "numericCode": "275",
   "population": 4682467,
@@ -8723,7 +8723,7 @@
     "symbol": "K"
   }],
   "demonym": "Papua New Guinean",
-  "flag": "https://restcountries.eu/data/png.svg",
+  "flag": "assets/images/flags/pg.svg",
   "gini": 50.9,
   "languages": [{
     "iso639_1": "en",
@@ -8877,7 +8877,7 @@
     "symbol": "\u20b1"
   }],
   "demonym": "Filipino",
-  "flag": "https://restcountries.eu/data/phl.svg",
+  "flag": "assets/images/flags/ph.svg",
   "gini": 43.0,
   "languages": [{
     "iso639_1": "en",
@@ -8929,7 +8929,7 @@
     "symbol": "$"
   }],
   "demonym": "Pitcairn Islander",
-  "flag": "https://restcountries.eu/data/pcn.svg",
+  "flag": "assets/images/flags/pn.svg",
   "languages": [{
     "iso639_1": "en",
     "iso639_2": "eng",
@@ -8937,7 +8937,7 @@
     "nativeName": "English"
   }],
   "latlng": [-25.06666666, -130.1],
-  "name": "Pitcairn",
+  "name": "Pitcairn Islands",
   "nativeName": "Pitcairn Islands",
   "numericCode": "612",
   "population": 56,
@@ -8973,7 +8973,7 @@
     "symbol": "z\u0142"
   }],
   "demonym": "Polish",
-  "flag": "https://restcountries.eu/data/pol.svg",
+  "flag": "assets/images/flags/pl.svg",
   "gini": 34.1,
   "languages": [{
     "iso639_1": "pl",
@@ -9021,7 +9021,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Portuguese",
-  "flag": "https://restcountries.eu/data/prt.svg",
+  "flag": "assets/images/flags/py.svg",
   "gini": 38.5,
   "languages": [{
     "iso639_1": "pt",
@@ -9167,7 +9167,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Kosovar",
-  "flag": "https://restcountries.eu/data/kos.svg",
+  "flag": "assets/images/flags/xk.svg",
   "languages": [{
     "iso639_1": "sq",
     "iso639_2": "sqi",
