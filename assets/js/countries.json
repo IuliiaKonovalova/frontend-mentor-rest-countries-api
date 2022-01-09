@@ -3203,7 +3203,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Djibouti",
-  "flag": "https://restcountries.eu/data/dji.svg",
+  "flag": "assets/images/flags/dj.svg",
   "gini": 40.0,
   "languages": [{
     "iso639_1": "fr",
@@ -3359,7 +3359,7 @@
     "symbol": "$"
   }],
   "demonym": "Ecuadorean",
-  "flag": "https://restcountries.eu/data/ecu.svg",
+  "flag": "assets/images/flags/ec.svg",
   "gini": 49.3,
   "languages": [{
     "iso639_1": "es",
@@ -3409,7 +3409,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "Egyptian",
-  "flag": "https://restcountries.eu/data/egy.svg",
+  "flag": "assets/images/flags/eg.svg",
   "gini": 30.8,
   "languages": [{
     "iso639_1": "ar",
@@ -3512,7 +3512,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Equatorial Guinean",
-  "flag": "https://restcountries.eu/data/gnq.svg",
+  "flag": "assets/images/flags/gq.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "es",
@@ -3566,7 +3566,7 @@
     "symbol": "Nfk"
   }],
   "demonym": "Eritrean",
-  "flag": "https://restcountries.eu/data/eri.svg",
+  "flag": "assets/images/flags/er.svg",
   "languages": [{
     "iso639_1": "ti",
     "iso639_2": "tir",
@@ -3624,7 +3624,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Estonian",
-  "flag": "https://restcountries.eu/data/est.svg",
+  "flag": "assets/images/flags/ee.svg",
   "gini": 36.0,
   "languages": [{
     "iso639_1": "et",
@@ -3672,7 +3672,7 @@
     "symbol": "Br"
   }],
   "demonym": "Ethiopian",
-  "flag": "https://restcountries.eu/data/eth.svg",
+  "flag": "assets/images/flags/et.svg",
   "gini": 29.8,
   "languages": [{
     "iso639_1": "am",
