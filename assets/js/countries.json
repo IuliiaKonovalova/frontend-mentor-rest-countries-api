@@ -11832,7 +11832,7 @@
     "symbol": "Sh"
   }],
   "demonym": "Ugandan",
-  "flag": "https://restcountries.eu/data/uga.svg",
+  "flag": "assets/images/flags/ug.svg",
   "gini": 44.3,
   "languages": [{
     "iso639_1": "en",
@@ -11886,7 +11886,7 @@
     "symbol": "\u20b4"
   }],
   "demonym": "Ukrainian",
-  "flag": "https://restcountries.eu/data/ukr.svg",
+  "flag": "assets/images/flags/ua.svg",
   "gini": 26.4,
   "languages": [{
     "iso639_1": "uk",
@@ -11931,7 +11931,7 @@
     "symbol": "\u062f.\u0625"
   }],
   "demonym": "Emirati",
-  "flag": "https://restcountries.eu/data/are.svg",
+  "flag": "assets/images/flags/ae.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -11980,7 +11980,7 @@
     "symbol": "\u00a3"
   }],
   "demonym": "British",
-  "flag": "https://restcountries.eu/data/gbr.svg",
+  "flag": "assets/images/flags/gb.svg",
   "gini": 34.0,
   "languages": [{
     "iso639_1": "en",
@@ -12077,7 +12077,7 @@
     "symbol": "$"
   }],
   "demonym": "Uruguayan",
-  "flag": "https://restcountries.eu/data/ury.svg",
+  "flag": "assets/images/flags/uy.svg",
   "gini": 39.7,
   "languages": [{
     "iso639_1": "es",
@@ -12127,7 +12127,7 @@
     "symbol": null
   }],
   "demonym": "Uzbekistani",
-  "flag": "https://restcountries.eu/data/uzb.svg",
+  "flag": "assets/images/flags/uz.svg",
   "gini": 36.7,
   "languages": [{
     "iso639_1": "uz",
@@ -12177,7 +12177,7 @@
     "symbol": "Vt"
   }],
   "demonym": "Ni-Vanuatu",
-  "flag": "https://restcountries.eu/data/vut.svg",
+  "flag": "assets/images/flags/vu.svg",
   "languages": [{
     "iso639_1": "bi",
     "iso639_2": "bis",
@@ -12231,7 +12231,7 @@
     "symbol": "Bs F"
   }],
   "demonym": "Venezuelan",
-  "flag": "https://restcountries.eu/data/ven.svg",
+  "flag": "assets/images/flags/ve.svg",
   "gini": 44.8,
   "languages": [{
     "iso639_1": "es",
@@ -12281,7 +12281,7 @@
     "symbol": "\u20ab"
   }],
   "demonym": "Vietnamese",
-  "flag": "https://restcountries.eu/data/vnm.svg",
+  "flag": "assets/images/flags/vn.svg",
   "gini": 35.6,
   "languages": [{
     "iso639_1": "vi",
@@ -12290,7 +12290,7 @@
     "nativeName": "Ti\u1ebfng Vi\u1ec7t"
   }],
   "latlng": [16.16666666, 107.83333333],
-  "name": "Viet Nam",
+  "name": "Vietnam",
   "nativeName": "Vi\u1ec7t Nam",
   "numericCode": "704",
   "population": 92700000,
@@ -12329,7 +12329,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Wallis and Futuna Islander",
-  "flag": "https://restcountries.eu/data/wlf.svg",
+  "flag": "assets/images/flags/wf.svg",
   "languages": [{
     "iso639_1": "fr",
     "iso639_2": "fra",
@@ -12377,7 +12377,7 @@
     "symbol": "\u062f.\u062c"
   }],
   "demonym": "Sahrawi",
-  "flag": "https://restcountries.eu/data/esh.svg",
+  "flag": "assets/images/flags/eh.svg",
   "languages": [{
     "iso639_1": "es",
     "iso639_2": "spa",
@@ -12425,7 +12425,7 @@
     "symbol": "\ufdfc"
   }],
   "demonym": "Yemeni",
-  "flag": "https://restcountries.eu/data/yem.svg",
+  "flag": "assets/images/flags/ye.svg",
   "gini": 37.7,
   "languages": [{
     "iso639_1": "ar",
@@ -12474,7 +12474,7 @@
     "symbol": "ZK"
   }],
   "demonym": "Zambian",
-  "flag": "https://restcountries.eu/data/zmb.svg",
+  "flag": "assets/images/flags/zm.svg",
   "gini": 54.6,
   "languages": [{
     "iso639_1": "en",
@@ -12555,7 +12555,7 @@
     "symbol": null
   }],
   "demonym": "Zimbabwean",
-  "flag": "https://restcountries.eu/data/zwe.svg",
+  "flag": "assets/images/flags/zw.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "en",
