@@ -279,7 +279,7 @@ body.light .data__card {
   background-color: var(--clr-primary--500);
   display: none;
   position: fixed;
-  top: 12rem;
+  top: 8rem;
   left: 0;
   right: 0;
   bottom: 0;
@@ -370,6 +370,7 @@ body.light .btn {
 
 .modal__borders {
   margin-top: 5rem;
+  font-size: 1.8rem;
 }
 
 .btn__border {

@@ -131,7 +131,7 @@ const displayCountryData = function (country) {
             ${country.languages.map(language => language.name)}
           </p>
           <p class="modal__borders">
-            <strong>Borders:</strong>
+            <strong>Border Countries:</strong>
             ${bordersArray.join(' ')}
           </p>
       `
