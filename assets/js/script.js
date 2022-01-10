@@ -1,16 +1,6 @@
 // Variables:
 let countries;
 const countriesList = document.getElementById("countries");
-const dataContainer = document.getElementById("data__container");
-const countryName = document.getElementById("country");
-const countryNativeName = document.getElementById("native_name");
-const countryPopulation = document.getElementById("population");
-const countryRegion = document.getElementById("region");
-const countrySubregion = document.getElementById("subregion");
-const countryCapital = document.getElementById("capital");
-const countryDomain = document.getElementById("top_domain");
-const countryCurrencies = document.getElementById("currencies");
-const countryLanguages = document.getElementById("languages");
 
 // dropdown menu
 const dropdownBtn = document.getElementById('dropdown');
@@ -22,11 +12,10 @@ const modeControl = document.getElementById("mode-control");
 const searchCountry = document.getElementById("search");
 // country details modal
 const modalWindow = document.getElementById("modal")
-
-let codeArray = []
-let borderArray = []
-let countryArray = []
+// dictionary for storing name, alpha3code, index
 let dictCountries = {}
+
+
 /**
  * Load content onLoad
  */
@@ -75,29 +64,10 @@ const displayCountries = function (countriesData) {
               </div>
             </div>
         `;
-    codeArray.push(country.alpha3Code);
-    borderArray = [];
-    country.borders.map(country => {
-      // console.log(country)
-      codeArray.forEach((elm, index) => {
-
-        if (country == elm) {
-          borderArray.push(countryArray[index]);
-          // console.log(countryArray[index]);
-        }
-      })
-    });
-
-
-
 
     countryCard.addEventListener('click', () => {
       modal.style.display = 'flex';
       displayCountryData(country);
-      // console.log(country.name)
-      country.borders.forEach(border => {
-        // console.log(border)
-      })
     });
 
     countriesList.appendChild(countryCard);
@@ -109,13 +79,16 @@ dictCountries
 const displayCountryData = function (country) {
   const modalContent = modalWindow.querySelector(".modal__content");
   const modalFlag = modalWindow.querySelector("#modal__flag");
+  // Display all borders by name of the country with click event
   let bordersArray = []
   country.borders.forEach(border => {
-    bordersArray.push(`<button onClick="document.getElementsByClassName('data__card')[${dictCountries[border][1]}].click()">${dictCountries[border][0]}</button>`)
+    bordersArray.push(`<button class="btn btn__border" onClick="document.getElementsByClassName('data__card')[${dictCountries[border][1]}].click()">${dictCountries[border][0]}</button>`)
   });
+  // Get Flag
   modalFlag.innerHTML = `
           <img src="${country.flag}" alt="Flag of ${country.name}" />
       `;
+  // Get Details
   modalContent.innerHTML = `
           <h2>${country.name}</h2>
           <p>
@@ -155,8 +128,6 @@ const displayCountryData = function (country) {
             ${bordersArray.join(' ')}
           </p>
       `
-
-  // "borders": ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"],
 }
 
 /**
