@@ -120,14 +120,13 @@ body.light .mode__control .far {
 
 .search__icon {
   position: absolute;
-  top: 1.69rem;
-  left: 1.5rem;
-  /* color: var(--clr-neutral--100); */
+  top: 1.9rem;
+  left: 2.5rem;
 }
 
 input {
   font-size: 0.95rem;
-  padding: 2em 4.2em;
+  padding: 2em 6.2em;
   width: 100%;
   border-radius: var(--br);
   text-align: left;
@@ -375,4 +374,107 @@ body.light .btn {
 
 .btn__border {
   margin: 0 0 0 1rem;
+}
+
+@media screen and (max-width: 62.5em) {
+
+  .subnav {
+    margin-top: 11rem;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .search__container {
+    width: 100%;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+
+}
+
+@media screen and (max-width: 31.25em) {
+  .navbar__title {
+    font-size: 1.2rem;
+  }
+
+  .mode__control {
+    display: flex;
+    align-items: center;
+  }
+
+  .mode__title {
+    font-weight: 600;
+    margin-left: 0.3rem;
+  }
+
+  .mode__control .fas {
+    display: none;
+  }
+
+  body.light .mode__control .fas {
+    display: inline-block;
+  }
+
+  body.light .mode__control .far {
+    display: none;
+  }
+
+  .main__container {
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 3rem;
+  }
+
+  .data__card {
+    width: 19rem;
+  }
+}
+
+
+@media screen and (max-width: 25.875em) {
+  .navbar__title {
+    font-size: 0.9rem;
+  }
+
+  .mode__title {
+    font-size: 0.7rem;
+  }
+
+  .main__container {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap: 3rem;
+  }
+
+  .data__card {
+    width: 17rem;
+  }
+}
+
+@media screen and (max-width: 19.8125em) {
+  .main__container {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem;
+  }
+
+  .data__card {
+    width: 15rem;
+    grid-template-rows: 1fr 0.5fr;
+  }
+
+
+
+  .container__info {
+    padding: 1rem;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 17.5em) {
+  .main__container {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 3rem;
+  }
+
+  .data__card {
+    width: 12rem;
+  }
 }
