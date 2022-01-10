@@ -20,6 +20,8 @@ const countriesRegions = dropdownBtn.querySelectorAll('li');
 const modeControl = document.getElementById("mode-control");
 // search
 const searchCountry = document.getElementById("search");
+// country details modal
+const modalWindow = document.getElementById("modal")
 
 
 /**
@@ -73,7 +75,10 @@ const displayCountries = function (countriesData) {
 
     countryCard.addEventListener('click', () => {
       modal.style.display = 'flex';
-      showCountryDetails(country);
+      displayCountryData(country);
+      console.log(
+        country.name
+      )
     });
 
     countriesList.appendChild(countryCard);
@@ -81,21 +86,48 @@ const displayCountries = function (countriesData) {
 }
 
 
-// function displayCountryData(countryByCode) {
-//   const countryData = countries.find(country => country.alpha3Code === countryByCode);
-//   countryName.innerHTML = countryData.name;
-//   countryPopulation.innerHTML = countryData.population.toLocaleString("en-US")
-//   countryRegion.innerHTML = countryData.region;
-//   countryCapital.innerHTML = countryData.capital;
-//   countryNativeName.innerHTML = countryData.nativeName;
-
-//   countrySubregion.innerHTML = countryData.subregion;
-
-//   countryDomain.innerHTML = countryData.topLevelDomain[0]
-//   countryLanguages.innerHTML = countryData.languages[0].name
-//   countryCurrencies.innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
-
-// }
+const displayCountryData = function (country) {
+  const modalContent = modalWindow.querySelector(".modal__content");
+  const modalFlag = modalWindow.querySelector("#modal__flag")
+  modalFlag.innerHTML = `
+          <img src="${country.flag}" alt="Flag of ${country.name}" />
+      `;
+  modalContent.innerHTML = `
+          <h2>${country.name}</h2>
+          <p>
+            <strong>Native Name:</strong>
+            ${country.nativeName}
+          </p>
+          <p>
+            <strong>Population:</strong>
+            ${country.population}
+          </p>
+          <p>
+            <strong>Region:</strong>
+            ${country.region}
+          </p>
+          <p>
+            <strong>Sub Region:</strong>
+            ${country.subregion}
+          </p>
+          <p>
+            <strong>Capital:</strong>
+            ${country.capital}
+          </p>
+          <p>
+            <strong>Top Level Domain:</strong>
+            ${country.topLevelDomain[0]}
+          </p>
+          <p>
+            <strong>Currencies:</strong>
+            ${country.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ")}
+          </p>
+          <p>
+            <strong>Languages:</strong>
+            ${country.languages.map(language => language.name)}
+          </p>
+      `
+}
 
 /**
  * Control of the Mode

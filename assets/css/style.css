@@ -244,16 +244,22 @@ input:focus {
 
 /* Modal */
 .modal__container {
-  background-color: khaki;
+  background-color: var(--clr-primary--300);
   display: none;
   position: fixed;
-  top: 0;
+  top: 5.2rem;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 999;
 }
 
+body.light .modal__container {
+  background-color: var(--clr-neutral--100);
+
+}
+
+.modal__content {}
 
 .country__container--single {
   margin: 0 3rem;
