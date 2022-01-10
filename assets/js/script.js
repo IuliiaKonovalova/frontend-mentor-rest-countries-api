@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
   closeModalWindow.addEventListener('click', () => {
     modal.style.display = 'none';
+    document.body.style.overflow = 'visible';
   })
   fetchDataCountries();
 });
@@ -70,7 +71,8 @@ const displayCountries = function (countriesData) {
         `;
 
     countryCard.addEventListener('click', () => {
-      modal.style.display = 'flex';
+      modal.style.display = 'block';
+      document.body.style.overflow = 'hidden';
       displayCountryData(country);
     });
 
@@ -90,7 +92,7 @@ const displayCountryData = function (country) {
   });
   // Get Flag
   modalFlag.innerHTML = `
-          <img src="${country.flag}" alt="Flag of ${country.name}" />
+          <img src="${country.flag}" alt="Flag of ${country.name}"   class="modal__flag"/>
       `;
   // Get Details
   modalContent.innerHTML = `
