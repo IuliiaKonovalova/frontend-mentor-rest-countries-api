@@ -262,8 +262,8 @@ body.light .modal__container {
   margin: 5rem auto;
   width: 85%;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-row: 0.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5rem 0.5fr;
   gap: 6rem;
 }
 
@@ -303,4 +303,14 @@ body.light .btn {
   font-size: 1.5rem;
 }
 
-.modal__content {}
+.modal__flag {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.modal__content {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-self: left;
+  align-self: center;
+}

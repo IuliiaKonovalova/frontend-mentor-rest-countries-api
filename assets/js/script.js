@@ -12,6 +12,7 @@ const modeControl = document.getElementById("mode-control");
 const searchCountry = document.getElementById("search");
 // country details modal
 const modalWindow = document.getElementById("modal")
+const closeModalWindow = document.getElementById('close__modal');
 // dictionary for storing name, alpha3code, index
 let dictCountries = {}
 
@@ -24,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
   dropdownBtn.addEventListener('click', () => {
     dropdownBtn.classList.toggle('open');
   });
+  closeModalWindow.addEventListener('click', () => {
+    modal.style.display = 'none';
+  })
   fetchDataCountries();
 });
 
