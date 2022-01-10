@@ -24,3 +24,12 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 - [Author](#author)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
+
+
+I was using design files provided for this challenge in order to make the result look as similar as possible to the provided images.
+
+I have also added various breakpoints in order to provide the best user experience.
+
+The solution to this challenge can be accessed by this [link](https://iuliiakonovalova.github.io/frontend-mentor-rest-countries-api/)
+
+![Responsive Mockup](documentation/responsive_mockup.png)
