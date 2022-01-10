@@ -93,7 +93,7 @@ const displayCountryData = function (country) {
   });
   // Get Flag
   modalFlag.innerHTML = `
-          <img src="${country.flag}" alt="Flag of ${country.name}"   class="modal__flag"/>
+          <img src="${country.flag}" alt="Flag of ${country.name}"   class="modal__flag--image"/>
       `;
   // Get Details
   modalContent.innerHTML = `
