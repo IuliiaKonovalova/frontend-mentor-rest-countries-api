@@ -96,7 +96,7 @@ const displayCountryData = function (country) {
       `;
   // Get Details
   modalContent.innerHTML = `
-          <h2>${country.name}</h2>
+          <h2 class="modal__country--name">${country.name}</h2>
           <p>
             <strong>Native Name:</strong>
             ${country.nativeName}
@@ -129,7 +129,7 @@ const displayCountryData = function (country) {
             <strong>Languages:</strong>
             ${country.languages.map(language => language.name)}
           </p>
-          <p>
+          <p class="modal__borders">
             <strong>Borders:</strong>
             ${bordersArray.join(' ')}
           </p>

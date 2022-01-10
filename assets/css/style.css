@@ -332,4 +332,19 @@ body.light .btn {
   grid-column: 2/3;
   justify-self: left;
   align-self: center;
+  line-height: 2.8rem;
+  font-size: 1.5rem;
+}
+
+.modal__country--name {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.modal__borders {
+  margin-top: 5rem;
+}
+
+.btn__border {
+  margin: 0 0 0 1rem;
 }
