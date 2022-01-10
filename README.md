@@ -73,7 +73,9 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
         * summary about each country with its flag.
 
-        * When clicking a country card, the user can learn more about this country, click on boarder countries to be redirected to another country, or go back to the main page. 
+        * When clicking a country card, the user can learn more about this country, click on boarder countries to be redirected to another country, or go back to the main page.
+        
+        ![Modal Window](documentation/app_features/modal.png)
 
 ---
 
@@ -113,3 +115,20 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
     Change width of the .data__card to max-width
 
 ---
+
+## Testing
+### Compatibility:
+
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
+
+  - Chrome:
+
+  ![Main Page](documentation/compatibility/browser_chrome.png)
+  
+  - Firefox:
+
+  ![Main Page](documentation/compatibility/browser_firefox.png)
+
+  - Brave:
+
+  ![Main Page](documentation/compatibility/browser_brave.png)
