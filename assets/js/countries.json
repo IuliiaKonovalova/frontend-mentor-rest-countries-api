@@ -1331,7 +1331,7 @@
       "nativeName": "Runa Simi"
     }],
     "latlng": [-17, -65],
-    "name": "Bolivia (Plurinational State of)",
+    "name": "Bolivia",
     "nativeName": "Bolivia",
     "numericCode": "068",
     "population": 10985059,
@@ -2758,7 +2758,7 @@
       "nativeName": "Tshiluba"
     }],
     "latlng": [0, 25],
-    "name": "Congo (Democratic Republic of the)",
+    "name": "Congo",
     "nativeName": "R\u00e9publique d\u00e9mocratique du Congo",
     "numericCode": "180",
     "population": 85026000,
@@ -11265,7 +11265,7 @@
       "nativeName": "English"
     }],
     "latlng": [-6, 35],
-    "name": "Tanzania, United Republic of",
+    "name": "Tanzania",
     "nativeName": "Tanzania",
     "numericCode": "834",
     "population": 55155000,
@@ -12241,7 +12241,7 @@
       "nativeName": "Espa\u00f1ol"
     }],
     "latlng": [8, -66],
-    "name": "Venezuela (Bolivarian Republic of)",
+    "name": "Venezuela",
     "nativeName": "Venezuela",
     "numericCode": "862",
     "population": 31028700,
