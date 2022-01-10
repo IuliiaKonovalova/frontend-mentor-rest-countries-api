@@ -1,11 +1,9 @@
 // Variables:
 let countries;
 const countriesList = document.getElementById("countries");
-
 // dropdown menu
 const dropdownBtn = document.getElementById('dropdown');
 const countriesRegions = dropdownBtn.querySelectorAll('li');
-
 // mode control
 const modeControl = document.getElementById("mode-control");
 // search
@@ -18,7 +16,7 @@ let dictCountries = {}
 
 
 /**
- * Load content onLoad
+ * Content onLoad
  */
 document.addEventListener('DOMContentLoaded', function () {
   modeControl.addEventListener("click", changeMode);
@@ -32,15 +30,20 @@ document.addEventListener('DOMContentLoaded', function () {
   fetchDataCountries();
 });
 
-
+/**
+ * Fetch json data
+ */
 async function fetchDataCountries() {
-
   const res = await fetch("assets/js/countries.json");
   const countriesData = await res.json();
-
   displayCountries(countriesData);
 }
 
+/**
+ * Classify data
+ * Display to the user
+ * Send data to the country object
+ */
 const displayCountries = function (countriesData) {
   countriesList.innerHTML = '';
   countriesData.forEach(country => {
@@ -69,15 +72,13 @@ const displayCountries = function (countriesData) {
               </div>
             </div>
         `;
-
+    // Listen for the click on the country, calls modal
     countryCard.addEventListener('click', () => {
       modal.style.display = 'block';
       document.body.style.overflow = 'hidden';
       displayCountryData(country);
     });
-
     countriesList.appendChild(countryCard);
-
   });
 }
 
