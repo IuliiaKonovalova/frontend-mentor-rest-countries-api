@@ -1,5 +1,6 @@
+/* jshint esversion:8 */
+
 // Variables:
-let countries;
 const countriesList = document.getElementById("countries");
 // dropdown menu
 const dropdownBtn = document.getElementById('dropdown');
@@ -9,10 +10,10 @@ const modeControl = document.getElementById("mode-control");
 // search
 const searchCountry = document.getElementById("search");
 // country details modal
-const modalWindow = document.getElementById("modal")
+const modalWindow = document.getElementById("modal");
 const closeModalWindow = document.getElementById('close__modal');
 // dictionary for storing name, alpha3code, index
-let dictCountries = {}
+let dictCountries = {};
 
 
 /**
@@ -24,9 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
     dropdownBtn.classList.toggle('open');
   });
   closeModalWindow.addEventListener('click', () => {
-    modal.style.display = 'none';
+    modalWindow.style.display = 'none';
     document.body.style.overflow = 'visible';
-  })
+  });
   fetchDataCountries();
 });
 
@@ -47,7 +48,7 @@ async function fetchDataCountries() {
 const displayCountries = function (countriesData) {
   countriesList.innerHTML = '';
   countriesData.forEach(country => {
-    dictCountries[country.alpha3Code] = [country.name, countriesData.indexOf(country)]
+    dictCountries[country.alpha3Code] = [country.name, countriesData.indexOf(country)];
     const countryCard = document.createElement('div');
     countryCard.classList.add('data__card');
     countryCard.innerHTML = `
@@ -74,22 +75,21 @@ const displayCountries = function (countriesData) {
         `;
     // Listen for the click on the country, calls modal
     countryCard.addEventListener('click', () => {
-      modal.style.display = 'block';
+      modalWindow.style.display = 'block';
       document.body.style.overflow = 'hidden';
       displayCountryData(country);
     });
     countriesList.appendChild(countryCard);
   });
-}
+};
 
-dictCountries
 const displayCountryData = function (country) {
   const modalContent = modalWindow.querySelector(".modal__content");
   const modalFlag = modalWindow.querySelector("#modal__flag");
   // Display all borders by name of the country with click event
-  let bordersArray = []
+  let bordersArray = [];
   country.borders.forEach(border => {
-    bordersArray.push(`<button class="btn btn__border" onClick="document.getElementsByClassName('data__card')[${dictCountries[border][1]}].click()">${dictCountries[border][0]}</button>`)
+    bordersArray.push(`<button class="btn btn__border" onClick="document.getElementsByClassName('data__card')[${dictCountries[border][1]}].click()">${dictCountries[border][0]}</button>`);
   });
   // Get Flag
   modalFlag.innerHTML = `
@@ -134,8 +134,8 @@ const displayCountryData = function (country) {
             <strong>Border Countries:</strong>
             ${bordersArray.join(' ')}
           </p>
-      `
-}
+      `;
+};
 
 /**
  * Control of the Mode
@@ -144,10 +144,10 @@ const changeMode = function () {
   if (document.querySelector(".mode__title").innerHTML == "Light Mode") {
     document.querySelector(".mode__title").innerHTML = "Dark Mode";
   } else {
-    document.querySelector(".mode__title").innerHTML = "Light Mode"
+    document.querySelector(".mode__title").innerHTML = "Light Mode";
   }
   document.body.classList.toggle('light');
-}
+};
 
 /**
  * Search country by the user's input
@@ -161,12 +161,12 @@ searchCountry.addEventListener('input', (e) => {
   countryName.forEach(name => {
 
     if (name.innerText.toLowerCase().includes(value.toLowerCase())) {
-      name.parentElement.parentElement.style.display = 'block'
+      name.parentElement.parentElement.style.display = 'block';
     } else {
-      name.parentElement.parentElement.style.display = 'none'
+      name.parentElement.parentElement.style.display = 'none';
     }
-  })
-})
+  });
+});
 
 /**
  * Select region
@@ -183,5 +183,5 @@ countriesRegions.forEach(region => {
         region.parentElement.parentElement.parentElement.style.display = 'none';
       }
     });
-  })
-})
+  });
+});
