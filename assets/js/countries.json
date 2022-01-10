@@ -6069,7 +6069,7 @@
     "symbol": "\u062f.\u0643"
   }],
   "demonym": "Kuwaiti",
-  "flag": "https://restcountries.eu/data/kwt.svg",
+  "flag": "assets/images/flags/kw.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -6118,7 +6118,7 @@
     "symbol": "\u0441"
   }],
   "demonym": "Kirghiz",
-  "flag": "https://restcountries.eu/data/kgz.svg",
+  "flag": "assets/images/flags/kg.svg",
   "gini": 36.2,
   "languages": [{
     "iso639_1": "ky",
@@ -6172,7 +6172,7 @@
     "symbol": "\u20ad"
   }],
   "demonym": "Laotian",
-  "flag": "https://restcountries.eu/data/lao.svg",
+  "flag": "assets/images/flags/la.svg",
   "gini": 36.7,
   "languages": [{
     "iso639_1": "lo",
@@ -6220,7 +6220,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Latvian",
-  "flag": "https://restcountries.eu/data/lva.svg",
+  "flag": "assets/images/flags/lv.svg",
   "gini": 36.6,
   "languages": [{
     "iso639_1": "lv",
@@ -6268,7 +6268,7 @@
     "symbol": "\u0644.\u0644"
   }],
   "demonym": "Lebanese",
-  "flag": "https://restcountries.eu/data/lbn.svg",
+  "flag": "assets/images/flags/lb.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -6326,7 +6326,7 @@
     "symbol": "R"
   }],
   "demonym": "Mosotho",
-  "flag": "https://restcountries.eu/data/lso.svg",
+  "flag": "assets/images/flags/ls.svg",
   "gini": 52.5,
   "languages": [{
     "iso639_1": "en",
@@ -6380,7 +6380,7 @@
     "symbol": "$"
   }],
   "demonym": "Liberian",
-  "flag": "https://restcountries.eu/data/lbr.svg",
+  "flag": "assets/images/flags/lr.svg",
   "gini": 38.2,
   "languages": [{
     "iso639_1": "en",
@@ -6429,7 +6429,7 @@
     "symbol": "\u0644.\u062f"
   }],
   "demonym": "Libyan",
-  "flag": "https://restcountries.eu/data/lby.svg",
+  "flag": "assets/images/flags/ly.svg",
   "gini": null,
   "languages": [{
     "iso639_1": "ar",
@@ -6482,7 +6482,7 @@
     "symbol": "Fr"
   }],
   "demonym": "Liechtensteiner",
-  "flag": "https://restcountries.eu/data/lie.svg",
+  "flag": "assets/images/flags/li.svg",
   "languages": [{
     "iso639_1": "de",
     "iso639_2": "deu",
@@ -6529,7 +6529,7 @@
     "symbol": "\u20ac"
   }],
   "demonym": "Lithuanian",
-  "flag": "https://restcountries.eu/data/ltu.svg",
+  "flag": "assets/images/flags/lt.svg",
   "gini": 37.6,
   "languages": [{
     "iso639_1": "lt",
