@@ -4175,7 +4175,7 @@
       "symbol": "Fr"
     }],
     "demonym": "Gabonese",
-    "flag": "https://restcountries.eu/data/gab.svg",
+    "flag": "assets/images/flags/ga.svg",
     "gini": 41.5,
     "languages": [{
       "iso639_1": "fr",
@@ -4224,7 +4224,7 @@
       "symbol": "D"
     }],
     "demonym": "Gambian",
-    "flag": "https://restcountries.eu/data/gmb.svg",
+    "flag": "assets/images/flags/gm.svg",
     "languages": [{
       "iso639_1": "en",
       "iso639_2": "eng",
@@ -4365,7 +4365,7 @@
       "symbol": "\u20b5"
     }],
     "demonym": "Ghanaian",
-    "flag": "https://restcountries.eu/data/gha.svg",
+    "flag": "assets/images/flags/gh.svg",
     "gini": 42.8,
     "languages": [{
       "iso639_1": "en",
@@ -4414,7 +4414,7 @@
       "symbol": "\u00a3"
     }],
     "demonym": "Gibraltar",
-    "flag": "https://restcountries.eu/data/gib.svg",
+    "flag": "assets/images/flags/gi.svg",
     "languages": [{
       "iso639_1": "en",
       "iso639_2": "eng",
@@ -4600,7 +4600,7 @@
       "symbol": "\u20ac"
     }],
     "demonym": "Guadeloupian",
-    "flag": "https://restcountries.eu/data/glp.svg",
+    "flag": "assets/images/flags/gp.svg",
     "languages": [{
       "iso639_1": "fr",
       "iso639_2": "fra",
@@ -4644,7 +4644,7 @@
       "symbol": "$"
     }],
     "demonym": "Guamanian",
-    "flag": "https://restcountries.eu/data/gum.svg",
+    "flag": "assets/images/flags/gu.svg",
     "languages": [{
       "iso639_1": "en",
       "iso639_2": "eng",
@@ -4752,7 +4752,7 @@
       "symbol": "\u00a3"
     }],
     "demonym": "Channel Islander",
-    "flag": "https://restcountries.eu/data/ggy.svg",
+    "flag": "assets/images/flags/gg.svg",
     "languages": [{
       "iso639_1": "en",
       "iso639_2": "eng",
@@ -4801,7 +4801,7 @@
       "symbol": "Fr"
     }],
     "demonym": "Guinean",
-    "flag": "https://restcountries.eu/data/gin.svg",
+    "flag": "assets/images/flags/gn.svg",
     "gini": 39.4,
     "languages": [{
       "iso639_1": "fr",
@@ -4855,7 +4855,7 @@
       "symbol": "Fr"
     }],
     "demonym": "Guinea-Bissauan",
-    "flag": "https://restcountries.eu/data/gnb.svg",
+    "flag": "assets/images/flags/gw.svg",
     "gini": 35.5,
     "languages": [{
       "iso639_1": "pt",
@@ -4904,7 +4904,7 @@
       "symbol": "$"
     }],
     "demonym": "Guyanese",
-    "flag": "https://restcountries.eu/data/guy.svg",
+    "flag": "assets/images/flags/gy.svg",
     "gini": 44.5,
     "languages": [{
       "iso639_1": "en",
