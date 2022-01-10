@@ -65,28 +65,38 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
         ![Main Page](documentation/app_features/main_page.png)
 
-        * Has the main card with personal information for the user and the time options.
+        * Navbar with the incentive, and mode control to pick the theme.
+        
+        * Search panel to search for a country.
 
-        ![Main Card](documentation/app_features/main_card.png)
+        * Select dropdown menu to select countries by continent
 
-        * Has the main card with personal information for the user.
+        * summary about each country with its flag.
 
-        ![Personal Information](documentation/app_features/main_card_personal_info.png)
+        * When clicking a country card, the user can learn more about this country, click on boarder countries to be redirected to another country, or go back to the main page. 
 
-        * Has three buttons under personal information card which allows the user to peek the time duration.
+---
 
-        ![Time Options](documentation/app_features/main_card_time_options.png)
+## Technologies Used
 
-        * Has six cards: work, study, play, exercise, social and sef-care, which allows the user to track the time spending on those activities during a day, a week , and a month.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items symmetrically on the pages.
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - was used to declaring global CSS variables and apply them throughout the project. 
+- [VSCode](https://code.visualstudio.com/) - was used as the main tool to write and edit code.
+- [Git](https://git-scm.com/) - was used for the version control of the website.
+- [GitHub](https://github.com/) - was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) - was used to make and resize images for the README file.
+- [JS](https://www.javascript.com/) - was used to display content on the page.
+- [async functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) - were used to fetch the data from the local json file.
 
-        ![Cards](documentation/app_features/report_cards.png)
 
-        * These cards also show the time that had been spent recently on those activities and the time that had been spend the day before, a week before, and a month before.
+---
+## Design
 
-        ![Cards](documentation/app_features/time_card.png)
+- The design, color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
 
-        * Has a link to [Frontend Mentor](https://www.frontendmentor.io) website, which provided all images and required design as well as the link to my github account [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
-
-        ![Credits](documentation/app_features/footer.png)
+- Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) (Weights: 300, 600, 800).
 
 ---
