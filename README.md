@@ -100,3 +100,16 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 - Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) (Weights: 300, 600, 800).
 
 ---
+
+## Bugs
++ **Solved bugs**
+
+1. The previous version of the REST COUNTRIES API was not available and the recent one has overwhelming data. Since I was aware of the issues with this data base happening before, I made a decision to use local JSON file + svg images from free source: [Flagpedia.net](https://flagpedia.net/) to keep my code running regardless of the availability of rest countries API.
+
++ **Unsolved bugs**
+
+    - The size of the flags were changed due to the requirements to keep cards with the same size. But in order to make flags more realistic, there is a solution:
+
+    Change width of the .data__card to max-width
+
+---
