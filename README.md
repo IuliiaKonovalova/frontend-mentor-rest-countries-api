@@ -195,3 +195,32 @@ No errors or warnings were found when passing through the official [JSHint](http
 
   ![JSHint Validator Main Page](documentation/js_hint.png)
 
+
+
+
+---
+## Wireframes
+
+- Desktop:
+
+* [Design preview for the rest Countries API](documentation/design/desktop-design-home-dark.jpg);
+
+* [Design preview for the rest Countries API](documentation/design/desktop-design-home-light.jpg);
+
+* [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-dark.jpg);
+
+* [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-light.jpg);
+
+
+- Mobile:
+
+
+* [Design preview for the rest Countries API](documentation/design/mobile-design-home-dark.jpg);
+
+* [Design preview for the rest Countries API](documentation/design/mobile-design-home-light.jpg);
+
+* [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-dark.jpg);
+
+* [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-light.jpg);
+
+---
