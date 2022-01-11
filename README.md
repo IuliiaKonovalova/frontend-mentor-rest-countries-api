@@ -197,8 +197,13 @@ No errors or warnings were found when passing through the official [JSHint](http
 
 The live link can be found [here](https://iuliiakonovalova.github.io/frontend-mentor-rest-countries-api/)
 
+---
+### Local Deployment
 
-.io/frontend-mentor-rest-countries-api/
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/frontend-mentor-rest-countries-api.git`
 ---
 ## Author
 
