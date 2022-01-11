@@ -132,3 +132,30 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
   - Brave:
 
   ![Main Page](documentation/compatibility/browser_brave.png)
+
+  + The app was checked by devtools implemented on Firefox and Chrome browsers.
+
+
+### Validator testing
++ #### HTML
+  
+  - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
+  
+    - Main Page:
+  
+    [Main Page HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fiuliiakonovalova.github.io%2Ffrontend-mentor-rest-countries-api%2F)
++ #### CSS
+  
+  - No errors were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator: 
+
+  [CSS Validator Errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fiuliiakonovalova.github.io%2Ffrontend-mentor-rest-countries-api%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  - The warnings shown are all regarding the use of webkits. However, the website works normally without any issues.
+
+
++ #### JS
+
+No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator:
+
+  ![JSHint Validator Main Page](documentation/js_hint.png)
+
