@@ -198,29 +198,58 @@ No errors or warnings were found when passing through the official [JSHint](http
 
 
 
+
+---
+## Author
+
+- Website - [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+- Frontend Mentor - [@IuliiaKonovalova](https://www.frontendmentor.io/profile/IuliiaKonovalova)
+
+---
+
+## Credits
+
++ ### Content and Design
+
+  - [Frontend Mentor](https://www.frontendmentor.io) had provided all necessary content and design that was used in order to complete this challenge.
+
++ ### Flags
+
+  - [Flagpedia.net](https://flagpedia.net/) had provided a free access to flags of all countries around the world.
++ ### Font
+
+  - [Google Fonts](https://fonts.google.com/) was used in order to implement required font.
+
+---
+
+## Acknowledgement
+
+  - [Frontend Mentor](https://www.frontendmentor.io) for inspiring to improve my skills.
+  
+
 ---
 ## Wireframes
 
 - Desktop:
 
-* [Design preview for the rest Countries API](documentation/design/desktop-design-home-dark.jpg);
+    * [Design preview for the rest Countries API](documentation/design/desktop-design-home-dark.jpg);
 
-* [Design preview for the rest Countries API](documentation/design/desktop-design-home-light.jpg);
+    * [Design preview for the rest Countries API](documentation/design/desktop-design-home-light.jpg);
 
-* [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-dark.jpg);
+    * [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-dark.jpg);
 
-* [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-light.jpg);
+    * [Design preview for modal the rest Countries API](documentation/design/desktop-design-detail-light.jpg);
 
 
 - Mobile:
 
 
-* [Design preview for the rest Countries API](documentation/design/mobile-design-home-dark.jpg);
+    * [Design preview for the rest Countries API](documentation/design/mobile-design-home-dark.jpg);
 
-* [Design preview for the rest Countries API](documentation/design/mobile-design-home-light.jpg);
+    * [Design preview for the rest Countries API](documentation/design/mobile-design-home-light.jpg);
 
-* [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-dark.jpg);
+    * [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-dark.jpg);
 
-* [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-light.jpg);
+    * [Design preview for modal the rest Countries API](documentation/design/mobile-design-detail-light.jpg);
 
 ---
