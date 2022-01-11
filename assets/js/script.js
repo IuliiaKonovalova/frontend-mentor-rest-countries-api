@@ -56,7 +56,7 @@ const displayCountries = function (countriesData) {
               <img src="${country.flag}" alt="Flag of ${country.alpha3Code}"  class="flag__image"/>
             </div>
             <div class="container__info">
-              <h3 class="country__name">${country.name}</h3>
+              <div class="country__name">${country.name}</div>
               <div class="data__result">
                 <p>
                   <strong>Population: </strong>
@@ -97,7 +97,7 @@ const displayCountryData = function (country) {
       `;
   // Get Details
   modalContent.innerHTML = `
-          <h2 class="modal__country--name">${country.name}</h2>
+          <div class="modal__country--name">${country.name}</div>
           <p>
             <strong>Native Name:</strong>
             ${country.nativeName}
