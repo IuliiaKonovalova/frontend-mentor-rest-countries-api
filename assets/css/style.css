@@ -2,7 +2,7 @@
 
 :root {
   /*Dark Blue (Dark Mode Elements):*/
-  --clr-primary--300: hsl(209, 23%, 22%);
+  --clr-primary--300: #2b3945;
   /*Very Dark Blue (Dark Mode Background)*/
   --clr-primary--500: hsl(207, 26%, 17%);
   /*Very Dark Blue (Light Mode Text)*/
@@ -325,6 +325,14 @@ body.light .btn {
   outline: none;
   border: none;
 
+}
+
+.btn:hover {
+  background-color: #2b394565;
+}
+
+body.light .btn:hover {
+  background-color: #2b394527;
 }
 
 .btn__icon {
